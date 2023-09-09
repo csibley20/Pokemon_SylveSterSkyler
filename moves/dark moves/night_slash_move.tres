@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://c7xija2b0y02j"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_3fcsx"]
+
+[resource]
+script = ExtResource("1_3fcsx")
+name = "Night Slash"
+category = "Physical"
+effect = []
+power = 70
+type = "DARK"
+accuracy = 1.0
+pp = 15
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = true
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

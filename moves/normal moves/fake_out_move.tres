@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://du0xh4p5nh54o"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_bcc8a"]
+
+[resource]
+script = ExtResource("1_bcc8a")
+name = "Fake Out"
+category = "Physical"
+effect = []
+power = 40
+type = "NORMAL"
+accuracy = 1.0
+pp = 10
+priority_bracket = 3
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

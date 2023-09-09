@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://wxye2xor2d4d"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_8ble4"]
+
+[resource]
+script = ExtResource("1_8ble4")
+name = "Quick Attack"
+category = "Physical"
+effect = []
+power = 40
+type = "NORMAL"
+accuracy = 1.0
+pp = 30
+priority_bracket = 1
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

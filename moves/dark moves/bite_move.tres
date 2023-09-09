@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dvrl1b34q3s7o"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_2toy8"]
+
+[resource]
+script = ExtResource("1_2toy8")
+name = "Bite"
+category = "Physical"
+effect = []
+power = 60
+type = "DARK"
+accuracy = 1.0
+pp = 25
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = true
+powder = false
+dance = false
+heal = false
+defrost = false

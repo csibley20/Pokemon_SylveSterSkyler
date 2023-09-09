@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dua8aeeckvtfu"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_s3v72"]
+
+[resource]
+script = ExtResource("1_s3v72")
+name = "Hyper Voice"
+category = "Special"
+effect = []
+power = 90
+type = "NORMAL"
+accuracy = 1.0
+pp = 10
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = true
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

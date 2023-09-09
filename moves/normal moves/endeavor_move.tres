@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bbdcrcjhlodse"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_he6lc"]
+
+[resource]
+script = ExtResource("1_he6lc")
+name = "Endeavor"
+category = "Physical"
+effect = []
+power = 0
+type = "NORMAL"
+accuracy = 1.0
+pp = 5
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

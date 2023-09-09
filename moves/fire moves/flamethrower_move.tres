@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cqw06t0arw8rp"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_6gq1s"]
+
+[resource]
+script = ExtResource("1_6gq1s")
+name = "Flamethrower"
+category = "Special"
+effect = []
+power = 90
+type = "FIRE"
+accuracy = 1.0
+pp = 15
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

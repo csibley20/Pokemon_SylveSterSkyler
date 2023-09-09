@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://rdr288ab4xlm"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_7l3ad"]
+
+[resource]
+script = ExtResource("1_7l3ad")
+name = "Leaf Storm"
+category = "Special"
+effect = []
+power = 130
+type = "GRASS"
+accuracy = 0.9
+pp = 5
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

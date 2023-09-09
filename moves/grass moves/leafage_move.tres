@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dyvmivqaex41k"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_ccgcm"]
+
+[resource]
+script = ExtResource("1_ccgcm")
+name = "Leafage"
+category = "Physical"
+effect = []
+power = 40
+type = "GRASS"
+accuracy = 1.0
+pp = 40
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

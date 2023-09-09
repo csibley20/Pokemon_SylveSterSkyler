@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://hlvw2ielsmsa"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_thvym"]
+
+[resource]
+script = ExtResource("1_thvym")
+name = "Energy Ball"
+category = "Special"
+effect = []
+power = 90
+type = "GRASS"
+accuracy = 1.0
+pp = 10
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = true
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

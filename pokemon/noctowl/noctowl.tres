@@ -1,0 +1,60 @@
+[gd_resource type="Resource" load_steps=21 format=3 uid="uid://bqb4ai1pm8qd5"]
+
+[ext_resource type="Resource" uid="uid://1t76dewmwrhb" path="res://moves/psychic moves/dream_eater_move.tres" id="1_5nspd"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_moq2m"]
+[ext_resource type="Resource" uid="uid://bnoj7wvqss06u" path="res://moves/psychic moves/hypnosis_move.tres" id="1_vq3fk"]
+[ext_resource type="Resource" uid="uid://b4uk2mfhy8h33" path="res://moves/flying moves/sky_attack_move.tres" id="2_8g6uq"]
+[ext_resource type="Resource" uid="uid://qqljor8e18ya" path="res://moves/flying moves/peck_move.tres" id="2_fsp61"]
+[ext_resource type="Resource" uid="uid://cwn7p08e55pat" path="res://moves/psychic moves/confusion_move.tres" id="3_ogjfc"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="3_uleya"]
+[ext_resource type="Resource" uid="uid://dmgnnsr1nh26q" path="res://moves/normal moves/echoed_voice_move.tres" id="4_jeo0p"]
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="4_shdl7"]
+[ext_resource type="Resource" uid="uid://dbwrdiwvjikgv" path="res://moves/psychic moves/zen_headbutt_move.tres" id="5_y7m2q"]
+[ext_resource type="Resource" uid="uid://ci508a8n7ka2q" path="res://moves/normal moves/foresight_move.tres" id="5_yyxue"]
+[ext_resource type="Resource" uid="uid://bs2od8lpbejmb" path="res://moves/psychic moves/psycho_shift_move.tres" id="6_q1oo6"]
+[ext_resource type="Resource" uid="uid://rkprtafvi6r5" path="res://moves/psychic moves/extrasensory_move.tres" id="7_us10u"]
+[ext_resource type="Resource" uid="uid://b8gcndp6h0mih" path="res://moves/normal moves/take_down_move.tres" id="8_6fq44"]
+[ext_resource type="Resource" uid="uid://dew148feke45j" path="res://moves/psychic moves/reflect_move.tres" id="9_3aw6f"]
+[ext_resource type="Resource" uid="uid://dv2hc0dpiq2td" path="res://moves/flying moves/air_slash_move.tres" id="10_cevbd"]
+[ext_resource type="Resource" uid="uid://cmntlmckmw11h" path="res://moves/normal moves/uproar_move.tres" id="11_wtbkp"]
+[ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="12_vovm1"]
+[ext_resource type="Resource" uid="uid://bsgy5oktd3fdt" path="res://moves/fairy moves/moonblast_move.tres" id="13_fqnjk"]
+[ext_resource type="Resource" uid="uid://nxesjsrm0o2o" path="res://moves/psychic moves/synchronoise_move.tres" id="14_btjcr"]
+
+[resource]
+script = ExtResource("1_moq2m")
+species_name = "Noctowl"
+dex_id = "DEX_NOCTOWL"
+type1 = "NORMAL"
+type2 = "FLYING"
+abilities = ["Insomnia", "Keen Eye", "Tinted Lens"]
+hp = 100
+attack = 50
+defense = 50
+sp_attack = 86
+sp_defense = 96
+speed = 70
+weight = 40.8
+gender_ratio_female = 50.0
+base_xp_yield = 158
+capture_rate = 90
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("1_5nspd"), ExtResource("2_8g6uq"), ExtResource("3_uleya"), ExtResource("4_shdl7"), ExtResource("5_yyxue")]
+lvl_learnset = {
+4: ExtResource("1_vq3fk"),
+7: ExtResource("2_fsp61"),
+10: ExtResource("3_ogjfc"),
+13: ExtResource("4_jeo0p"),
+16: ExtResource("5_y7m2q"),
+19: ExtResource("6_q1oo6"),
+23: ExtResource("7_us10u"),
+27: ExtResource("8_6fq44"),
+31: ExtResource("9_3aw6f"),
+35: ExtResource("10_cevbd"),
+39: ExtResource("11_wtbkp"),
+43: ExtResource("12_vovm1"),
+47: ExtResource("13_fqnjk"),
+51: ExtResource("14_btjcr"),
+55: ExtResource("1_5nspd")
+}
+tm_learnset = []

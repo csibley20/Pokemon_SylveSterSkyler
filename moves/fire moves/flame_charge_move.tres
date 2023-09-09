@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://8vnf1cmi3ums"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="2_dx5f6"]
+
+[resource]
+script = ExtResource("2_dx5f6")
+name = "Flame Charge"
+category = "Physical"
+effect = []
+power = 50
+type = "FIRE"
+accuracy = 1.0
+pp = 20
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

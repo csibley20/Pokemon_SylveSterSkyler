@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://wvn2qhjp5v4r"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_s2l1j"]
+
+[resource]
+script = ExtResource("1_s2l1j")
+name = "Mean Look"
+category = "Status"
+effect = []
+power = 0
+type = "NORMAL"
+accuracy = 2.0
+pp = 5
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

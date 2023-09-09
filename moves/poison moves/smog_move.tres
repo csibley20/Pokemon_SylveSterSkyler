@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://xjdprlxtce61"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="2_2l811"]
+
+[resource]
+script = ExtResource("2_2l811")
+name = "Smog"
+category = "Special"
+effect = []
+power = 30
+type = "POISON"
+accuracy = 0.7
+pp = 20
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

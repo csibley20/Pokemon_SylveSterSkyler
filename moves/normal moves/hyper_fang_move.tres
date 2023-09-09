@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b0a5vqlnc57dh"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_son2h"]
+
+[resource]
+script = ExtResource("1_son2h")
+name = "Hyper Fang"
+category = "Physical"
+effect = []
+power = 80
+type = "NORMAL"
+accuracy = 0.9
+pp = 15
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = true
+powder = false
+dance = false
+heal = false
+defrost = false

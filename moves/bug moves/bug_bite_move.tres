@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://c2nu1qyogah6g"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_imuh0"]
+
+[resource]
+script = ExtResource("1_imuh0")
+name = "Bug Bite"
+category = "Physical"
+effect = []
+power = 60
+type = "BUG"
+accuracy = 1.0
+pp = 20
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

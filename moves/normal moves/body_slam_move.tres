@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b134xi01e5dus"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_j8kt1"]
+
+[resource]
+script = ExtResource("1_j8kt1")
+name = "Body Slam"
+category = "Physical"
+effect = []
+power = 85
+type = "NORMAL"
+accuracy = 1.0
+pp = 15
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

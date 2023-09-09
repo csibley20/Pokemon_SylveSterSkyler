@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://4suqdhbe0fxv"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="2_v8l7v"]
+
+[resource]
+script = ExtResource("2_v8l7v")
+name = "Heat Crash"
+category = "Physical"
+effect = []
+power = 0
+type = "FIRE"
+accuracy = 1.0
+pp = 10
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

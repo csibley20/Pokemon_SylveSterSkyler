@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b42sbnduvtb1i"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_rcen8"]
+
+[resource]
+script = ExtResource("1_rcen8")
+name = "Fury Cutter"
+category = "Physical"
+effect = []
+power = 40
+type = "BUG"
+accuracy = 0.95
+pp = 20
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = true
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

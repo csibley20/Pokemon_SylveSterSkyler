@@ -1,0 +1,53 @@
+[gd_resource type="Resource" load_steps=16 format=3 uid="uid://cbk13lw4sjgc5"]
+
+[ext_resource type="Resource" uid="uid://bmxv02r005nms" path="res://moves/normal moves/scratch_move.tres" id="1_tyegm"]
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="2_472qh"]
+[ext_resource type="Resource" uid="uid://bnoj7wvqss06u" path="res://moves/psychic moves/hypnosis_move.tres" id="3_36ksq"]
+[ext_resource type="Resource" uid="uid://bnncfxyqr46vi" path="res://moves/normal moves/fury_swipes_move.tres" id="3_gmx0o"]
+[ext_resource type="Resource" uid="uid://duhlawnocwaf2" path="res://moves/normal moves/assist_move.tres" id="4_t2tg0"]
+[ext_resource type="Resource" uid="uid://0or5b68b1qn1" path="res://moves/dark moves/feint_attack_move.tres" id="4_x3mpi"]
+[ext_resource type="Resource" uid="uid://ch78cjw58uvxl" path="res://moves/normal moves/captivate_move.tres" id="5_ei07y"]
+[ext_resource type="Resource" uid="uid://du0xh4p5nh54o" path="res://moves/normal moves/fake_out_move.tres" id="6_ni0mq"]
+[ext_resource type="Resource" uid="uid://usfjocvlfme6" path="res://moves/fairy moves/charm_move.tres" id="6_xjlka"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="7_wt0tc"]
+[ext_resource type="Resource" uid="uid://cfkly5ab0a6je" path="res://moves/normal moves/slash_move.tres" id="9_66u2u"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="10_auk0d"]
+[ext_resource type="Resource" uid="uid://cx1p85dp5g73d" path="res://moves/normal moves/attract_move.tres" id="11_5wg3c"]
+[ext_resource type="Resource" uid="uid://boeanblkbrx2g" path="res://moves/dark moves/hone_claws_move.tres" id="12_l31rl"]
+[ext_resource type="Resource" uid="uid://cy8v86a6p4lyi" path="res://moves/fairy moves/play_rough_move.tres" id="13_ofc5s"]
+
+[resource]
+script = ExtResource("7_wt0tc")
+species_name = "Glameow"
+dex_id = "DEX_GLAMEOW"
+type1 = "NORMAL"
+type2 = ""
+abilities = ["Limber", "Own Tempo", "Keen Eye"]
+hp = 49
+attack = 55
+defense = 42
+sp_attack = 42
+sp_defense = 37
+speed = 85
+weight = 3.9
+gender_ratio_female = 75.0
+base_xp_yield = 62
+capture_rate = 190
+growth_rate = "Fast"
+lvl_one_moves = [ExtResource("1_tyegm")]
+lvl_learnset = {
+5: ExtResource("6_ni0mq"),
+8: ExtResource("2_472qh"),
+13: ExtResource("3_36ksq"),
+17: ExtResource("4_x3mpi"),
+20: ExtResource("3_gmx0o"),
+25: ExtResource("6_xjlka"),
+29: ExtResource("4_t2tg0"),
+32: ExtResource("5_ei07y"),
+37: ExtResource("9_66u2u"),
+41: ExtResource("10_auk0d"),
+44: ExtResource("11_5wg3c"),
+48: ExtResource("12_l31rl"),
+50: ExtResource("13_ofc5s")
+}
+tm_learnset = []

@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=17 format=3 uid="uid://dyksqqsci8sp8"]
+
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_p5mkv"]
+[ext_resource type="Resource" uid="uid://d3qpvwq7gmg7x" path="res://moves/normal moves/leer_move.tres" id="2_23a0a"]
+[ext_resource type="Resource" uid="uid://wxye2xor2d4d" path="res://moves/normal moves/quick_attack_move.tres" id="3_hwx70"]
+[ext_resource type="Resource" uid="uid://4t20h412ili0" path="res://moves/flying moves/air_cutter_move.tres" id="4_0t1tb"]
+[ext_resource type="Resource" uid="uid://cshpvs544kmx" path="res://moves/flying moves/feather_dance_move.tres" id="5_m31ok"]
+[ext_resource type="Resource" uid="uid://clr4ldvrdr8st" path="res://moves/fighting moves/detect_move.tres" id="6_gd6ls"]
+[ext_resource type="Resource" uid="uid://bp1h8lrjp3sxh" path="res://moves/dark moves/taunt_move.tres" id="7_sui33"]
+[ext_resource type="Resource" uid="uid://dv2hc0dpiq2td" path="res://moves/flying moves/air_slash_move.tres" id="8_7adls"]
+[ext_resource type="Resource" uid="uid://esbsffbyj58o" path="res://moves/normal moves/razor_wind_move.tres" id="9_n3j85"]
+[ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="10_bkv76"]
+[ext_resource type="Resource" uid="uid://bg8xgg23fiar4" path="res://moves/normal moves/swagger_move.tres" id="11_twli2"]
+[ext_resource type="Resource" uid="uid://bnp3koi3v33eu" path="res://moves/normal moves/facade_move.tres" id="12_f5i1k"]
+[ext_resource type="Resource" uid="uid://dngj7if0f4mqm" path="res://moves/flying moves/tailwind_move.tres" id="13_ixkid"]
+[ext_resource type="Resource" uid="uid://b4uk2mfhy8h33" path="res://moves/flying moves/sky_attack_move.tres" id="14_abfq8"]
+[ext_resource type="Resource" uid="uid://fck6thdl4063" path="res://moves/flying moves/gust_move.tres" id="15_no4up"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="16_djyjv"]
+
+[resource]
+script = ExtResource("16_djyjv")
+species_name = "Unfezant"
+dex_id = "DEX_UNFEZANT"
+type1 = "NORMAL"
+type2 = "FLYING"
+abilities = ["Big Pecks", "Super Luck", "Rivalry"]
+hp = 80
+attack = 115
+defense = 80
+sp_attack = 65
+sp_defense = 55
+speed = 93
+weight = 29.0
+gender_ratio_female = 50.0
+base_xp_yield = 220
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("15_no4up")]
+lvl_learnset = {
+4: ExtResource("1_p5mkv"),
+8: ExtResource("2_23a0a"),
+11: ExtResource("3_hwx70"),
+15: ExtResource("4_0t1tb"),
+18: ExtResource("5_m31ok"),
+23: ExtResource("6_gd6ls"),
+27: ExtResource("7_sui33"),
+33: ExtResource("8_7adls"),
+38: ExtResource("9_n3j85"),
+44: ExtResource("10_bkv76"),
+49: ExtResource("11_twli2"),
+55: ExtResource("12_f5i1k"),
+60: ExtResource("13_ixkid"),
+66: ExtResource("14_abfq8")
+}
+tm_learnset = []

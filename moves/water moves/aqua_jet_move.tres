@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://d0w08do762o6s"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_ha1jj"]
+
+[resource]
+script = ExtResource("1_ha1jj")
+name = "Aqua Jet"
+category = "Physical"
+effect = []
+power = 40
+type = "WATER"
+accuracy = 1.0
+pp = 20
+priority_bracket = 1
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

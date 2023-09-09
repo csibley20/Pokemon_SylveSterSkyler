@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cs1afta4mhyuf"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_fbrhg"]
+
+[resource]
+script = ExtResource("1_fbrhg")
+name = "Poison Powder"
+category = "Status"
+effect = []
+power = 0
+type = ""
+accuracy = 0.75
+pp = 35
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = true
+dance = false
+heal = false
+defrost = false

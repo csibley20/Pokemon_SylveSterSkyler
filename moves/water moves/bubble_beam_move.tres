@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b71csgmrmkd2d"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_h10bf"]
+
+[resource]
+script = ExtResource("1_h10bf")
+name = "Bubble Beam"
+category = "Special"
+effect = []
+power = 65
+type = "WATER"
+accuracy = 1.0
+pp = 20
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

@@ -1,0 +1,59 @@
+[gd_resource type="Resource" load_steps=20 format=3 uid="uid://b2tulsic74iba"]
+
+[ext_resource type="Resource" uid="uid://dttin1oe5o7bb" path="res://moves/bug moves/string_shot_move.tres" id="1_ip5sw"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_px8fb"]
+[ext_resource type="Resource" uid="uid://bxtbkntjv4y8l" path="res://moves/bug moves/struggle_bug_move.tres" id="2_h72en"]
+[ext_resource type="Resource" uid="uid://c2nu1qyogah6g" path="res://moves/bug moves/bug_bite_move.tres" id="3_el0bs"]
+[ext_resource type="Resource" uid="uid://dk2kc3ripbg1p" path="res://moves/normal moves/hidden_power_move.tres" id="4_pjlgy"]
+[ext_resource type="Resource" uid="uid://cwn7p08e55pat" path="res://moves/psychic moves/confusion_move.tres" id="5_tu40l"]
+[ext_resource type="Resource" uid="uid://fck6thdl4063" path="res://moves/flying moves/gust_move.tres" id="6_j6mek"]
+[ext_resource type="Resource" uid="uid://cs1afta4mhyuf" path="res://moves/poison moves/poison_powder_move.tres" id="7_uq2no"]
+[ext_resource type="Resource" uid="uid://s3dnnw0yilwe" path="res://moves/psychic moves/psybeam_move.tres" id="8_fmgjs"]
+[ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="9_kpwy4"]
+[ext_resource type="Resource" uid="uid://dquc68nx415g8" path="res://moves/bug moves/silver_wind_move.tres" id="10_4newv"]
+[ext_resource type="Resource" uid="uid://dv2hc0dpiq2td" path="res://moves/flying moves/air_slash_move.tres" id="11_t0ekt"]
+[ext_resource type="Resource" uid="uid://cww1eunf5bs22" path="res://moves/psychic moves/psychic_move.tres" id="12_c4kic"]
+[ext_resource type="Resource" uid="uid://tsk8iir1k707" path="res://moves/bug moves/lunge_move.tres" id="13_eu38r"]
+[ext_resource type="Resource" uid="uid://bmdxnffrd1b87" path="res://moves/bug moves/bug_buzz_move.tres" id="14_uj6cf"]
+[ext_resource type="Resource" uid="uid://dsncd8ilj7efa" path="res://moves/bug moves/quiver_dance_move.tres" id="15_nbe76"]
+[ext_resource type="Resource" uid="uid://bre3ac1gn7qfi" path="res://moves/normal moves/camouflage_move.tres" id="16_b01rh"]
+[ext_resource type="Resource" uid="uid://dgn863ic7ytsp" path="res://moves/normal moves/protect_move.tres" id="17_kjm80"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="18_tfc2m"]
+
+[resource]
+script = ExtResource("1_px8fb")
+species_name = "Mothim"
+dex_id = "DEX_MOTHIM"
+type1 = "BUG"
+type2 = "FLYING"
+abilities = ["Swarm", "Swarm", "Tinted Lens"]
+hp = 70
+attack = 94
+defense = 50
+sp_attack = 94
+sp_defense = 50
+speed = 66
+weight = 23.3
+gender_ratio_female = 0.0
+base_xp_yield = 148
+capture_rate = 45
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("16_b01rh"), ExtResource("17_kjm80"), ExtResource("18_tfc2m")]
+lvl_learnset = {
+-1: ExtResource("15_nbe76"),
+5: ExtResource("1_ip5sw"),
+10: ExtResource("2_h72en"),
+15: ExtResource("3_el0bs"),
+20: ExtResource("4_pjlgy"),
+23: ExtResource("5_tu40l"),
+26: ExtResource("6_j6mek"),
+29: ExtResource("7_uq2no"),
+32: ExtResource("8_fmgjs"),
+35: ExtResource("9_kpwy4"),
+38: ExtResource("10_4newv"),
+41: ExtResource("11_t0ekt"),
+44: ExtResource("12_c4kic"),
+47: ExtResource("13_eu38r"),
+50: ExtResource("14_uj6cf")
+}
+tm_learnset = []

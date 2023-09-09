@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b1pkhrp05rmbr"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_oi2if"]
+
+[resource]
+script = ExtResource("1_oi2if")
+name = "Beak Blast"
+category = "Physical"
+effect = []
+power = 100
+type = "FLYING"
+accuracy = 1.0
+pp = 15
+priority_bracket = -3
+contact = true
+targeting = true
+bullet = true
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = true

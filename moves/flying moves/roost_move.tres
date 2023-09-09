@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dollthph3mxju"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_0ip88"]
+
+[resource]
+script = ExtResource("1_0ip88")
+name = "Roost"
+category = "Status"
+effect = []
+power = 0
+type = "FLYING"
+accuracy = 2.0
+pp = 5
+priority_bracket = 0
+contact = false
+targeting = false
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

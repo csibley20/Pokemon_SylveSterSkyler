@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=17 format=3 uid="uid://cnakd3u1uqwyd"]
+
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_1rbg3"]
+[ext_resource type="Resource" uid="uid://bvb67rusck1rq" path="res://moves/water moves/water_gun_move.tres" id="2_xd7xn"]
+[ext_resource type="Resource" uid="uid://bfi7ij34orty3" path="res://moves/fairy moves/disarming_voice_move.tres" id="3_cq8ax"]
+[ext_resource type="Resource" uid="uid://brek4agswf1pu" path="res://moves/fairy moves/baby-doll_eyes_move.tres" id="4_rcqsu"]
+[ext_resource type="Resource" uid="uid://d0w08do762o6s" path="res://moves/water moves/aqua_jet_move.tres" id="5_suena"]
+[ext_resource type="Resource" uid="uid://b54wxdy50sqxj" path="res://moves/ice moves/icy_wind_move.tres" id="6_60fl4"]
+[ext_resource type="Resource" uid="uid://b71csgmrmkd2d" path="res://moves/water moves/bubble_beam_move.tres" id="7_h446l"]
+[ext_resource type="Resource" uid="uid://cejl88vah3ii8" path="res://moves/normal moves/sing_move.tres" id="8_vfesi"]
+[ext_resource type="Resource" uid="uid://0s7jwaxw83vn" path="res://moves/normal moves/encore_move.tres" id="9_c4fqa"]
+[ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="10_6e0lf"]
+[ext_resource type="Resource" uid="uid://bsgy5oktd3fdt" path="res://moves/fairy moves/moonblast_move.tres" id="11_b4wyf"]
+[ext_resource type="Resource" uid="uid://ch78cjw58uvxl" path="res://moves/normal moves/captivate_move.tres" id="12_0v5y5"]
+[ext_resource type="Resource" uid="uid://bm16imlh26q7j" path="res://moves/water moves/hydro_pump_move.tres" id="13_e5if0"]
+[ext_resource type="Resource" uid="uid://7ef2g1fnlbog" path="res://moves/fairy moves/misty_terrain_move.tres" id="14_o85a8"]
+[ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="15_wwm7u"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="16_pmt1i"]
+
+[resource]
+script = ExtResource("16_pmt1i")
+species_name = ""
+dex_id = "DEX_BRIONNE"
+type1 = "WATER"
+type2 = ""
+abilities = ["Torrent", "Torrent", "Liquid Voice"]
+hp = 60
+attack = 69
+defense = 69
+sp_attack = 91
+sp_defense = 81
+speed = 50
+weight = 17.5
+gender_ratio_female = 12.5
+base_xp_yield = 147
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("15_wwm7u")]
+lvl_learnset = {
+3: ExtResource("1_1rbg3"),
+7: ExtResource("2_xd7xn"),
+9: ExtResource("3_cq8ax"),
+13: ExtResource("4_rcqsu"),
+15: ExtResource("5_suena"),
+19: ExtResource("6_60fl4"),
+24: ExtResource("7_h446l"),
+28: ExtResource("8_vfesi"),
+33: ExtResource("9_c4fqa"),
+37: ExtResource("10_6e0lf"),
+42: ExtResource("11_b4wyf"),
+46: ExtResource("12_0v5y5"),
+51: ExtResource("13_e5if0"),
+55: ExtResource("14_o85a8")
+}
+tm_learnset = []

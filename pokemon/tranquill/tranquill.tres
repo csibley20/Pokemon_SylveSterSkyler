@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=17 format=3 uid="uid://shkpqlg4pk7b"]
+
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_5nrb6"]
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_s57re"]
+[ext_resource type="Resource" uid="uid://d3qpvwq7gmg7x" path="res://moves/normal moves/leer_move.tres" id="2_8r2ba"]
+[ext_resource type="Resource" uid="uid://wxye2xor2d4d" path="res://moves/normal moves/quick_attack_move.tres" id="3_ru0k6"]
+[ext_resource type="Resource" uid="uid://4t20h412ili0" path="res://moves/flying moves/air_cutter_move.tres" id="4_25d60"]
+[ext_resource type="Resource" uid="uid://cshpvs544kmx" path="res://moves/flying moves/feather_dance_move.tres" id="5_ki2aa"]
+[ext_resource type="Resource" uid="uid://clr4ldvrdr8st" path="res://moves/fighting moves/detect_move.tres" id="6_jx4uq"]
+[ext_resource type="Resource" uid="uid://bp1h8lrjp3sxh" path="res://moves/dark moves/taunt_move.tres" id="7_1anw6"]
+[ext_resource type="Resource" uid="uid://dv2hc0dpiq2td" path="res://moves/flying moves/air_slash_move.tres" id="8_vbhx5"]
+[ext_resource type="Resource" uid="uid://esbsffbyj58o" path="res://moves/normal moves/razor_wind_move.tres" id="9_rpglb"]
+[ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="10_t11no"]
+[ext_resource type="Resource" uid="uid://bg8xgg23fiar4" path="res://moves/normal moves/swagger_move.tres" id="11_6btqi"]
+[ext_resource type="Resource" uid="uid://bnp3koi3v33eu" path="res://moves/normal moves/facade_move.tres" id="12_3br0i"]
+[ext_resource type="Resource" uid="uid://dngj7if0f4mqm" path="res://moves/flying moves/tailwind_move.tres" id="13_tkudw"]
+[ext_resource type="Resource" uid="uid://b4uk2mfhy8h33" path="res://moves/flying moves/sky_attack_move.tres" id="14_lemjm"]
+[ext_resource type="Resource" uid="uid://fck6thdl4063" path="res://moves/flying moves/gust_move.tres" id="15_jkhe1"]
+
+[resource]
+script = ExtResource("1_5nrb6")
+species_name = "Tranquill"
+dex_id = "DEX_TRANQUILL"
+type1 = "NORMAL"
+type2 = "FLYING"
+abilities = ["Big Pecks", "Super Luck", "Rivalry"]
+hp = 62
+attack = 77
+defense = 62
+sp_attack = 50
+sp_defense = 42
+speed = 65
+weight = 15.0
+gender_ratio_female = 50.0
+base_xp_yield = 125
+capture_rate = 120
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("15_jkhe1")]
+lvl_learnset = {
+4: ExtResource("1_s57re"),
+8: ExtResource("2_8r2ba"),
+11: ExtResource("3_ru0k6"),
+15: ExtResource("4_25d60"),
+18: ExtResource("5_ki2aa"),
+23: ExtResource("6_jx4uq"),
+27: ExtResource("7_1anw6"),
+32: ExtResource("8_vbhx5"),
+36: ExtResource("9_rpglb"),
+41: ExtResource("10_t11no"),
+45: ExtResource("11_6btqi"),
+50: ExtResource("12_3br0i"),
+54: ExtResource("13_tkudw"),
+59: ExtResource("14_lemjm")
+}
+tm_learnset = []

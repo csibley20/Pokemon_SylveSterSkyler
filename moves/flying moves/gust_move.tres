@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://fck6thdl4063"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_rylem"]
+
+[resource]
+script = ExtResource("1_rylem")
+name = "Gust"
+category = "Special"
+effect = []
+power = 40
+type = "FLYING"
+accuracy = 1.0
+pp = 35
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = true
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

@@ -1,0 +1,59 @@
+[gd_resource type="Resource" load_steps=20 format=3 uid="uid://bhpdwkhe8crbv"]
+
+[ext_resource type="Resource" uid="uid://dttin1oe5o7bb" path="res://moves/bug moves/string_shot_move.tres" id="1_pysqm"]
+[ext_resource type="Resource" uid="uid://bxtbkntjv4y8l" path="res://moves/bug moves/struggle_bug_move.tres" id="2_wd804"]
+[ext_resource type="Resource" uid="uid://c2nu1qyogah6g" path="res://moves/bug moves/bug_bite_move.tres" id="3_macq3"]
+[ext_resource type="Resource" uid="uid://dk2kc3ripbg1p" path="res://moves/normal moves/hidden_power_move.tres" id="4_orpm4"]
+[ext_resource type="Resource" uid="uid://cwn7p08e55pat" path="res://moves/psychic moves/confusion_move.tres" id="5_xmjth"]
+[ext_resource type="Resource" uid="uid://bt4xu44xapvei" path="res://moves/steel/metal_bust_move.tres" id="6_pkbfh"]
+[ext_resource type="Resource" uid="uid://c7buql588n7op" path="res://moves/steel/metal_sound_move.tres" id="7_vnnve"]
+[ext_resource type="Resource" uid="uid://s3dnnw0yilwe" path="res://moves/psychic moves/psybeam_move.tres" id="8_b4axu"]
+[ext_resource type="Resource" uid="uid://cchk07j2p0tdw" path="res://moves/bug moves/infestation_move.tres" id="9_gcxqe"]
+[ext_resource type="Resource" uid="uid://bo0pcwje8867j" path="res://moves/normal moves/flail_move.tres" id="10_fenko"]
+[ext_resource type="Resource" uid="uid://cx1p85dp5g73d" path="res://moves/normal moves/attract_move.tres" id="11_u1gp1"]
+[ext_resource type="Resource" uid="uid://cww1eunf5bs22" path="res://moves/psychic moves/psychic_move.tres" id="12_7dkir"]
+[ext_resource type="Resource" uid="uid://gketvc7uf1yw" path="res://moves/steel/iron_head_move.tres" id="13_8bsbl"]
+[ext_resource type="Resource" uid="uid://bmdxnffrd1b87" path="res://moves/bug moves/bug_buzz_move.tres" id="14_wl5yn"]
+[ext_resource type="Resource" uid="uid://dsncd8ilj7efa" path="res://moves/bug moves/quiver_dance_move.tres" id="15_nvxtl"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="16_61gp8"]
+[ext_resource type="Resource" uid="uid://dgn863ic7ytsp" path="res://moves/normal moves/protect_move.tres" id="17_rw362"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="18_3jbga"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="19_njs6q"]
+
+[resource]
+script = ExtResource("19_njs6q")
+species_name = "Wormadam"
+dex_id = "DEX_WORMADAM-TRASHCLOAK"
+type1 = "BUG"
+type2 = "STEEL"
+abilities = ["Anticipation", "Anticipation", "Overcoat"]
+hp = 60
+attack = 69
+defense = 95
+sp_attack = 69
+sp_defense = 95
+speed = 36
+weight = 6.5
+gender_ratio_female = 100.0
+base_xp_yield = 148
+capture_rate = 45
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("16_61gp8"), ExtResource("17_rw362"), ExtResource("18_3jbga")]
+lvl_learnset = {
+-1: ExtResource("15_nvxtl"),
+5: ExtResource("1_pysqm"),
+10: ExtResource("2_wd804"),
+15: ExtResource("3_macq3"),
+20: ExtResource("4_orpm4"),
+23: ExtResource("5_xmjth"),
+26: ExtResource("6_pkbfh"),
+29: ExtResource("7_vnnve"),
+32: ExtResource("8_b4axu"),
+35: ExtResource("9_gcxqe"),
+38: ExtResource("10_fenko"),
+41: ExtResource("11_u1gp1"),
+44: ExtResource("12_7dkir"),
+47: ExtResource("13_8bsbl"),
+50: ExtResource("14_wl5yn")
+}
+tm_learnset = []

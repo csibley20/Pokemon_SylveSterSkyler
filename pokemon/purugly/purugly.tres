@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=18 format=3 uid="uid://b7xalo6oegp1a"]
+
+[ext_resource type="Resource" uid="uid://bmxv02r005nms" path="res://moves/normal moves/scratch_move.tres" id="1_f1yot"]
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="2_66c6n"]
+[ext_resource type="Resource" uid="uid://bnoj7wvqss06u" path="res://moves/psychic moves/hypnosis_move.tres" id="3_1utxq"]
+[ext_resource type="Resource" uid="uid://0or5b68b1qn1" path="res://moves/dark moves/feint_attack_move.tres" id="4_bp4oj"]
+[ext_resource type="Resource" uid="uid://bnncfxyqr46vi" path="res://moves/normal moves/fury_swipes_move.tres" id="5_a4nft"]
+[ext_resource type="Resource" uid="uid://usfjocvlfme6" path="res://moves/fairy moves/charm_move.tres" id="6_8a5a7"]
+[ext_resource type="Resource" uid="uid://duhlawnocwaf2" path="res://moves/normal moves/assist_move.tres" id="7_3xdwx"]
+[ext_resource type="Resource" uid="uid://ch78cjw58uvxl" path="res://moves/normal moves/captivate_move.tres" id="8_m0w7t"]
+[ext_resource type="Resource" uid="uid://cfkly5ab0a6je" path="res://moves/normal moves/slash_move.tres" id="9_0byn8"]
+[ext_resource type="Resource" uid="uid://b134xi01e5dus" path="res://moves/normal moves/body_slam_move.tres" id="10_jvvgx"]
+[ext_resource type="Resource" uid="uid://cx1p85dp5g73d" path="res://moves/normal moves/attract_move.tres" id="11_760sj"]
+[ext_resource type="Resource" uid="uid://boeanblkbrx2g" path="res://moves/dark moves/hone_claws_move.tres" id="12_587hg"]
+[ext_resource type="Resource" uid="uid://bg8xgg23fiar4" path="res://moves/normal moves/swagger_move.tres" id="13_q0jww"]
+[ext_resource type="Resource" uid="uid://du0xh4p5nh54o" path="res://moves/normal moves/fake_out_move.tres" id="14_2n2ag"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="15_nbjtd"]
+[ext_resource type="Resource" uid="uid://cy8v86a6p4lyi" path="res://moves/fairy moves/play_rough_move.tres" id="16_avhnp"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="17_1xqbq"]
+
+[resource]
+script = ExtResource("17_1xqbq")
+species_name = "Purugly"
+dex_id = "DEX_PURUGLY"
+type1 = "NORMAL"
+type2 = ""
+abilities = ["Limber", "Own Tempo", "Defiant"]
+hp = 71
+attack = 85
+defense = 64
+sp_attack = 64
+sp_defense = 59
+speed = 112
+weight = 43.8
+gender_ratio_female = 75.0
+base_xp_yield = 158
+capture_rate = 75
+growth_rate = "Fast"
+lvl_one_moves = [ExtResource("13_q0jww"), ExtResource("15_nbjtd"), ExtResource("16_avhnp"), ExtResource("1_f1yot")]
+lvl_learnset = {
+-1: ExtResource("13_q0jww"),
+5: ExtResource("14_2n2ag"),
+8: ExtResource("2_66c6n"),
+13: ExtResource("3_1utxq"),
+17: ExtResource("4_bp4oj"),
+20: ExtResource("5_a4nft"),
+25: ExtResource("6_8a5a7"),
+29: ExtResource("7_3xdwx"),
+32: ExtResource("8_m0w7t"),
+37: ExtResource("9_0byn8"),
+45: ExtResource("10_jvvgx"),
+52: ExtResource("11_760sj"),
+60: ExtResource("12_587hg")
+}
+tm_learnset = []

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://esbsffbyj58o"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_4bt0u"]
+
+[resource]
+script = ExtResource("1_4bt0u")
+name = "Razor Wind"
+category = "Special"
+effect = []
+power = 80
+type = "NORMAL"
+accuracy = 1.0
+pp = 10
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = true
+sound = false
+slice = true
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

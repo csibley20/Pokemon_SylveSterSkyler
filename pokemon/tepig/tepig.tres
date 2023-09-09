@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=17 format=3 uid="uid://b6n3ba1ii7hn2"]
+
+[ext_resource type="Resource" uid="uid://cisxxjubocdto" path="res://moves/normal moves/tail_whip_move.tres" id="1_4fcsf"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_040r1"]
+[ext_resource type="Resource" uid="uid://da07jx0ur12y5" path="res://moves/fire moves/ember_move.tres" id="2_behbv"]
+[ext_resource type="Resource" uid="uid://b7wgx5whou7dk" path="res://moves/normal moves/odor_sleuth_move.tres" id="3_hb4gc"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="4_a5qx3"]
+[ext_resource type="Resource" uid="uid://dfqxcuxsf4t1m" path="res://moves/normal moves/defense_curl_move.tres" id="4_lyvcr"]
+[ext_resource type="Resource" uid="uid://8vnf1cmi3ums" path="res://moves/fire moves/flame_charge_move.tres" id="5_a4apg"]
+[ext_resource type="Resource" uid="uid://xjdprlxtce61" path="res://moves/poison moves/smog_move.tres" id="6_yj24v"]
+[ext_resource type="Resource" uid="uid://v1n73a5552fa" path="res://moves/rock moves/rollout_move.tres" id="7_qwl4f"]
+[ext_resource type="Resource" uid="uid://b8gcndp6h0mih" path="res://moves/normal moves/take_down_move.tres" id="8_x37mj"]
+[ext_resource type="Resource" uid="uid://4suqdhbe0fxv" path="res://moves/fire moves/heat_crash_move.tres" id="9_4thq5"]
+[ext_resource type="Resource" uid="uid://bs7k7f1m0gmka" path="res://moves/dark moves/assurance_move.tres" id="10_lfmsa"]
+[ext_resource type="Resource" uid="uid://cqw06t0arw8rp" path="res://moves/fire moves/flamethrower_move.tres" id="11_4cqpa"]
+[ext_resource type="Resource" uid="uid://xdr48kmgqa5d" path="res://moves/rock moves/head_smash_move.tres" id="12_lmjwx"]
+[ext_resource type="Resource" uid="uid://cpnrpfve6xg83" path="res://moves/normal moves/roar_move.tres" id="13_0hbm5"]
+[ext_resource type="Resource" uid="uid://dnbw1x3kcp34b" path="res://moves/fire moves/flare_blitz_move.tres" id="14_x3fhp"]
+
+[resource]
+script = ExtResource("1_040r1")
+species_name = ""
+dex_id = "DEX_TEPIG"
+type1 = "FIRE"
+type2 = ""
+abilities = ["Blaze", "Blaze", "Thick Fat"]
+hp = 65
+attack = 63
+defense = 45
+sp_attack = 45
+sp_defense = 45
+speed = 45
+weight = 9.9
+gender_ratio_female = 12.5
+base_xp_yield = 62
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("4_a5qx3")]
+lvl_learnset = {
+3: ExtResource("1_4fcsf"),
+7: ExtResource("2_behbv"),
+9: ExtResource("3_hb4gc"),
+13: ExtResource("4_lyvcr"),
+15: ExtResource("5_a4apg"),
+19: ExtResource("6_yj24v"),
+21: ExtResource("7_qwl4f"),
+25: ExtResource("8_x37mj"),
+27: ExtResource("9_4thq5"),
+31: ExtResource("10_lfmsa"),
+33: ExtResource("11_4cqpa"),
+37: ExtResource("12_lmjwx"),
+39: ExtResource("13_0hbm5"),
+43: ExtResource("14_x3fhp")
+}
+tm_learnset = []

@@ -1,0 +1,57 @@
+[gd_resource type="Resource" load_steps=18 format=3 uid="uid://3ci3b5014nvi"]
+
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_ujmqu"]
+[ext_resource type="Resource" uid="uid://bvb67rusck1rq" path="res://moves/water moves/water_gun_move.tres" id="2_xa2tl"]
+[ext_resource type="Resource" uid="uid://bfi7ij34orty3" path="res://moves/fairy moves/disarming_voice_move.tres" id="3_2pxly"]
+[ext_resource type="Resource" uid="uid://brek4agswf1pu" path="res://moves/fairy moves/baby-doll_eyes_move.tres" id="4_5o12n"]
+[ext_resource type="Resource" uid="uid://d0w08do762o6s" path="res://moves/water moves/aqua_jet_move.tres" id="5_fkxiu"]
+[ext_resource type="Resource" uid="uid://0s7jwaxw83vn" path="res://moves/normal moves/encore_move.tres" id="6_cdi5w"]
+[ext_resource type="Resource" uid="uid://b54wxdy50sqxj" path="res://moves/ice moves/icy_wind_move.tres" id="6_j10vt"]
+[ext_resource type="Resource" uid="uid://b71csgmrmkd2d" path="res://moves/water moves/bubble_beam_move.tres" id="7_60hts"]
+[ext_resource type="Resource" uid="uid://cejl88vah3ii8" path="res://moves/normal moves/sing_move.tres" id="8_q84ys"]
+[ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="10_1ds56"]
+[ext_resource type="Resource" uid="uid://bsgy5oktd3fdt" path="res://moves/fairy moves/moonblast_move.tres" id="11_p4smq"]
+[ext_resource type="Resource" uid="uid://ch78cjw58uvxl" path="res://moves/normal moves/captivate_move.tres" id="12_hsjnx"]
+[ext_resource type="Resource" uid="uid://bm16imlh26q7j" path="res://moves/water moves/hydro_pump_move.tres" id="13_d0s2x"]
+[ext_resource type="Resource" uid="uid://7ef2g1fnlbog" path="res://moves/fairy moves/misty_terrain_move.tres" id="14_4hdlc"]
+[ext_resource type="Resource" uid="uid://bt5mqgbj8ruo6" path="res://moves/water moves/sparkling_aria_move.tres" id="15_mhbb0"]
+[ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="16_w8qdn"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="17_qmkcf"]
+
+[resource]
+script = ExtResource("17_qmkcf")
+species_name = ""
+dex_id = "DEX_PRIMARINA"
+type1 = "WATER"
+type2 = "FAIRY"
+abilities = ["Torrent", "Torrent", "Liquid Voice"]
+hp = 80
+attack = 74
+defense = 74
+sp_attack = 126
+sp_defense = 116
+speed = 60
+weight = 44.0
+gender_ratio_female = 12.5
+base_xp_yield = 239
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("16_w8qdn")]
+lvl_learnset = {
+-1: ExtResource("15_mhbb0"),
+3: ExtResource("1_ujmqu"),
+7: ExtResource("2_xa2tl"),
+9: ExtResource("3_2pxly"),
+13: ExtResource("4_5o12n"),
+15: ExtResource("5_fkxiu"),
+19: ExtResource("6_j10vt"),
+24: ExtResource("7_60hts"),
+28: ExtResource("8_q84ys"),
+33: ExtResource("6_cdi5w"),
+38: ExtResource("10_1ds56"),
+44: ExtResource("11_p4smq"),
+49: ExtResource("12_hsjnx"),
+55: ExtResource("13_d0s2x"),
+60: ExtResource("14_4hdlc")
+}
+tm_learnset = []

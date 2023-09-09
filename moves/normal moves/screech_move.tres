@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://biod6a6ojslll"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_hlb2c"]
+
+[resource]
+script = ExtResource("1_hlb2c")
+name = "Screech"
+category = "Status"
+effect = []
+power = 0
+type = "NORMAL"
+accuracy = 0.85
+pp = 40
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = true
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

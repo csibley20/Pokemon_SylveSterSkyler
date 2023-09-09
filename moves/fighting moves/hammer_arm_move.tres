@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dwhnwenv21rw4"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_u8oe1"]
+
+[resource]
+script = ExtResource("1_u8oe1")
+name = "Hammer Arm"
+category = "Physical"
+effect = []
+power = 100
+type = "FIGHTING"
+accuracy = 0.9
+pp = 10
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = true
+bite = false
+powder = false
+heal = false
+defrost = false

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dwqtqjqma30cn"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_o3moc"]
+
+[resource]
+script = ExtResource("1_o3moc")
+name = "Dark Pulse"
+category = "Special"
+effect = []
+power = 80
+type = "DARK"
+accuracy = 1.0
+pp = 15
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+pulse = true
+heal = false
+defrost = false

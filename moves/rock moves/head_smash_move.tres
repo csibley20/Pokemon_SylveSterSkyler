@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://xdr48kmgqa5d"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_h02f8"]
+
+[resource]
+script = ExtResource("1_h02f8")
+name = "Head Smash"
+category = "Physical"
+effect = []
+power = 120
+type = "ROCK"
+accuracy = 0.8
+pp = 5
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

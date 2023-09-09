@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://diryhk40vxn66"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_3pxii"]
+
+[resource]
+script = ExtResource("1_3pxii")
+name = "Comeuppance"
+category = "Physical"
+effect = []
+power = 0
+type = "DARK"
+accuracy = 1.0
+pp = 10
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+pulse = false
+heal = false
+defrost = false

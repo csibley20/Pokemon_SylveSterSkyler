@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfam8b4ha8uoo"]
+
+[ext_resource type="Script" path="res://game code/pokemon creation/pokemon_instance.gd" id="1_8s4mw"]
+
+[node name="pokemon_instance" type="Node"]
+script = ExtResource("1_8s4mw")

@@ -1,0 +1,43 @@
+[gd_resource type="Resource" load_steps=13 format=3 uid="uid://djxfqc0a5sxx1"]
+
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_5ckmf"]
+[ext_resource type="Resource" uid="uid://bg8xgg23fiar4" path="res://moves/normal moves/swagger_move.tres" id="1_r4j40"]
+[ext_resource type="Resource" uid="uid://dh70tqxp8okdj" path="res://moves/dark moves/nasty_plot_move.tres" id="2_rusru"]
+[ext_resource type="Resource" uid="uid://b82nkbx5am6nx" path="res://moves/dark moves/foul_play_move.tres" id="3_1lmts"]
+[ext_resource type="Resource" uid="uid://c7xija2b0y02j" path="res://moves/dark moves/night_slash_move.tres" id="4_wdys6"]
+[ext_resource type="Resource" uid="uid://dwqtqjqma30cn" path="res://moves/dark moves/dark_pulse_move.tres" id="5_4a3pk"]
+[ext_resource type="Resource" uid="uid://diryhk40vxn66" path="res://moves/dark moves/comeuppance_move.tres" id="6_oc16d"]
+[ext_resource type="Resource" uid="uid://c4qfvi7ixikri" path="res://moves/flying moves/wing_attack_move.tres" id="7_yiw18"]
+[ext_resource type="Resource" uid="uid://dqhna3wk47ewt" path="res://moves/ice moves/haze_move.tres" id="8_x7sls"]
+[ext_resource type="Resource" uid="uid://dibouhjtggf4v" path="res://moves/ghost moves/astonish_move.tres" id="9_gwwbn"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="10_b4qko"]
+[ext_resource type="Resource" uid="uid://bk8jtyssqvbct" path="res://moves/dark moves/quash_move.tres" id="11_yi2tp"]
+
+[resource]
+script = ExtResource("1_5ckmf")
+species_name = "Honchkrow"
+dex_id = "DEX_HONCHKROW"
+type1 = "DARK"
+type2 = "FLYING"
+abilities = ["Insomnia", "Super Luck", "Moxie"]
+hp = 100
+attack = 125
+defense = 52
+sp_attack = 105
+sp_defense = 52
+speed = 71
+weight = 27.3
+gender_ratio_female = 50.0
+base_xp_yield = 177
+capture_rate = 30
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("7_yiw18"), ExtResource("8_x7sls"), ExtResource("9_gwwbn"), ExtResource("4_wdys6"), ExtResource("10_b4qko"), ExtResource("11_yi2tp")]
+lvl_learnset = {
+25: ExtResource("1_r4j40"),
+35: ExtResource("2_rusru"),
+45: ExtResource("3_1lmts"),
+55: ExtResource("4_wdys6"),
+60: ExtResource("5_4a3pk"),
+65: ExtResource("6_oc16d")
+}
+tm_learnset = []

@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=18 format=3 uid="uid://ctrninccw8m78"]
+
+[ext_resource type="Resource" uid="uid://lyib0vmg5rxd" path="res://moves/dark moves/pursuit_move.tres" id="1_m6rqt"]
+[ext_resource type="Resource" uid="uid://dqhna3wk47ewt" path="res://moves/ice moves/haze_move.tres" id="2_eqmh7"]
+[ext_resource type="Resource" uid="uid://c4qfvi7ixikri" path="res://moves/flying moves/wing_attack_move.tres" id="3_d2yc8"]
+[ext_resource type="Resource" uid="uid://yedwa3k6lkej" path="res://moves/ghost moves/night_shade_move.tres" id="4_npt68"]
+[ext_resource type="Resource" uid="uid://bs7k7f1m0gmka" path="res://moves/dark moves/assurance_move.tres" id="5_2sr62"]
+[ext_resource type="Resource" uid="uid://bp1h8lrjp3sxh" path="res://moves/dark moves/taunt_move.tres" id="6_g0n2e"]
+[ext_resource type="Resource" uid="uid://0or5b68b1qn1" path="res://moves/dark moves/feint_attack_move.tres" id="7_005n5"]
+[ext_resource type="Resource" uid="uid://wvn2qhjp5v4r" path="res://moves/normal moves/mean_look_move.tres" id="8_gq61e"]
+[ext_resource type="Resource" uid="uid://b82nkbx5am6nx" path="res://moves/dark moves/foul_play_move.tres" id="9_6q4ff"]
+[ext_resource type="Resource" uid="uid://dngj7if0f4mqm" path="res://moves/flying moves/tailwind_move.tres" id="10_hti2n"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="11_ir31v"]
+[ext_resource type="Resource" uid="uid://b82q3fuf0r6aq" path="res://moves/dark moves/torment_move.tres" id="12_3tkmc"]
+[ext_resource type="Resource" uid="uid://bk8jtyssqvbct" path="res://moves/dark moves/quash_move.tres" id="13_r4ky1"]
+[ext_resource type="Resource" uid="uid://qqljor8e18ya" path="res://moves/flying moves/peck_move.tres" id="14_mr2fn"]
+[ext_resource type="Resource" uid="uid://dibouhjtggf4v" path="res://moves/ghost moves/astonish_move.tres" id="15_f6wgx"]
+[ext_resource type="Resource" uid="uid://fck6thdl4063" path="res://moves/flying moves/gust_move.tres" id="16_tlq8k"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="17_a5qv7"]
+
+[resource]
+script = ExtResource("17_a5qv7")
+species_name = "Murkrow"
+dex_id = "DEX_MURKROW"
+type1 = "DARK"
+type2 = "FLYING"
+abilities = ["Insomnia", "Super Luck", "Prankster"]
+hp = 60
+attack = 85
+defense = 42
+sp_attack = 85
+sp_defense = 42
+speed = 91
+weight = 2.1
+gender_ratio_female = 50.0
+base_xp_yield = 81
+capture_rate = 30
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("14_mr2fn"), ExtResource("15_f6wgx"), ExtResource("16_tlq8k")]
+lvl_learnset = {
+5: ExtResource("1_m6rqt"),
+11: ExtResource("2_eqmh7"),
+15: ExtResource("3_d2yc8"),
+21: ExtResource("4_npt68"),
+25: ExtResource("5_2sr62"),
+31: ExtResource("6_g0n2e"),
+35: ExtResource("7_005n5"),
+41: ExtResource("8_gq61e"),
+45: ExtResource("9_6q4ff"),
+50: ExtResource("10_hti2n"),
+55: ExtResource("11_ir31v"),
+61: ExtResource("12_3tkmc"),
+65: ExtResource("13_r4ky1")
+}
+tm_learnset = []

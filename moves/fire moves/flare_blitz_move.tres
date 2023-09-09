@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dnbw1x3kcp34b"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_ijvqs"]
+
+[resource]
+script = ExtResource("1_ijvqs")
+name = "Flare Blitz"
+category = "Physical"
+effect = []
+power = 120
+type = "FIRE"
+accuracy = 1.0
+pp = 15
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = true

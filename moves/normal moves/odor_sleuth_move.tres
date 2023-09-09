@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b7wgx5whou7dk"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_0lygp"]
+
+[resource]
+script = ExtResource("1_0lygp")
+name = "Odor Sleuth"
+category = "Status"
+effect = []
+power = 0
+type = "NORMAL"
+accuracy = 2.0
+pp = 40
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

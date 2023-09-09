@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dw3patciebohi"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_wlkvb"]
+
+[resource]
+script = ExtResource("1_wlkvb")
+name = "False Swipe"
+category = "Physical"
+effect = []
+power = 40
+type = "NORMAL"
+accuracy = 1.0
+pp = 40
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

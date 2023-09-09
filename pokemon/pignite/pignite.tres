@@ -1,0 +1,57 @@
+[gd_resource type="Resource" load_steps=18 format=3 uid="uid://dtpbba2wsvwf5"]
+
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_0xr24"]
+[ext_resource type="Resource" uid="uid://cisxxjubocdto" path="res://moves/normal moves/tail_whip_move.tres" id="1_kqoix"]
+[ext_resource type="Resource" uid="uid://da07jx0ur12y5" path="res://moves/fire moves/ember_move.tres" id="2_bouhw"]
+[ext_resource type="Resource" uid="uid://b7wgx5whou7dk" path="res://moves/normal moves/odor_sleuth_move.tres" id="3_r7gtu"]
+[ext_resource type="Resource" uid="uid://dfqxcuxsf4t1m" path="res://moves/normal moves/defense_curl_move.tres" id="4_ejw6c"]
+[ext_resource type="Resource" uid="uid://8vnf1cmi3ums" path="res://moves/fire moves/flame_charge_move.tres" id="5_sfbs0"]
+[ext_resource type="Resource" uid="uid://xjdprlxtce61" path="res://moves/poison moves/smog_move.tres" id="6_08kq6"]
+[ext_resource type="Resource" uid="uid://v1n73a5552fa" path="res://moves/rock moves/rollout_move.tres" id="7_m6vd8"]
+[ext_resource type="Resource" uid="uid://b8gcndp6h0mih" path="res://moves/normal moves/take_down_move.tres" id="8_fhvj7"]
+[ext_resource type="Resource" uid="uid://4suqdhbe0fxv" path="res://moves/fire moves/heat_crash_move.tres" id="9_u4kje"]
+[ext_resource type="Resource" uid="uid://bs7k7f1m0gmka" path="res://moves/dark moves/assurance_move.tres" id="10_lngm3"]
+[ext_resource type="Resource" uid="uid://cqw06t0arw8rp" path="res://moves/fire moves/flamethrower_move.tres" id="11_p65hb"]
+[ext_resource type="Resource" uid="uid://xdr48kmgqa5d" path="res://moves/rock moves/head_smash_move.tres" id="12_4dpdo"]
+[ext_resource type="Resource" uid="uid://cpnrpfve6xg83" path="res://moves/normal moves/roar_move.tres" id="13_53gqq"]
+[ext_resource type="Resource" uid="uid://dnbw1x3kcp34b" path="res://moves/fire moves/flare_blitz_move.tres" id="14_ytnaw"]
+[ext_resource type="Resource" uid="uid://c723skvjboxwg" path="res://moves/fighting moves/arm_thrust_move.tres" id="15_8ntuc"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="16_ved0e"]
+
+[resource]
+script = ExtResource("1_0xr24")
+species_name = ""
+dex_id = "DEX_PIGNITE"
+type1 = "FIRE"
+type2 = "FIGHTING"
+abilities = ["Blaze", "Blaze", "Thick Fat"]
+hp = 90
+attack = 93
+defense = 55
+sp_attack = 70
+sp_defense = 55
+speed = 55
+weight = 55.5
+gender_ratio_female = 12.5
+base_xp_yield = 146
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("16_ved0e")]
+lvl_learnset = {
+-1: ExtResource("15_8ntuc"),
+3: ExtResource("1_kqoix"),
+7: ExtResource("2_bouhw"),
+9: ExtResource("3_r7gtu"),
+13: ExtResource("4_ejw6c"),
+15: ExtResource("5_sfbs0"),
+20: ExtResource("6_08kq6"),
+23: ExtResource("7_m6vd8"),
+28: ExtResource("8_fhvj7"),
+31: ExtResource("9_u4kje"),
+36: ExtResource("10_lngm3"),
+39: ExtResource("11_p65hb"),
+44: ExtResource("12_4dpdo"),
+47: ExtResource("13_53gqq"),
+52: ExtResource("14_ytnaw")
+}
+tm_learnset = []

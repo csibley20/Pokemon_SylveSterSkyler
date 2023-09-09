@@ -1,0 +1,50 @@
+[gd_resource type="Resource" load_steps=15 format=3 uid="uid://q1i5okw2uxao"]
+
+[ext_resource type="Resource" uid="uid://wxye2xor2d4d" path="res://moves/normal moves/quick_attack_move.tres" id="1_rlicm"]
+[ext_resource type="Resource" uid="uid://cufgcdxpf64wb" path="res://moves/normal moves/focus_energy_move.tres" id="2_8fsgd"]
+[ext_resource type="Resource" uid="uid://dvrl1b34q3s7o" path="res://moves/dark moves/bite_move.tres" id="3_rs75p"]
+[ext_resource type="Resource" uid="uid://lyib0vmg5rxd" path="res://moves/dark moves/pursuit_move.tres" id="4_kehu0"]
+[ext_resource type="Resource" uid="uid://b0a5vqlnc57dh" path="res://moves/normal moves/hyper_fang_move.tres" id="5_xd15v"]
+[ext_resource type="Resource" uid="uid://bs7k7f1m0gmka" path="res://moves/dark moves/assurance_move.tres" id="6_e86n7"]
+[ext_resource type="Resource" uid="uid://yflds0p4k47t" path="res://moves/dark moves/crunch_move.tres" id="7_kvst7"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="8_e0e5g"]
+[ext_resource type="Resource" uid="uid://cwocj8gvy5tv2" path="res://moves/normal moves/super_fang_move.tres" id="9_ywoj1"]
+[ext_resource type="Resource" uid="uid://lynxc3oovbas" path="res://moves/normal moves/double-edge_move.tres" id="10_p4iuj"]
+[ext_resource type="Resource" uid="uid://bbdcrcjhlodse" path="res://moves/normal moves/endeavor_move.tres" id="11_v7hi8"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="12_thaw5"]
+[ext_resource type="Resource" uid="uid://cisxxjubocdto" path="res://moves/normal moves/tail_whip_move.tres" id="13_pimiw"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="14_jx2c0"]
+
+[resource]
+script = ExtResource("14_jx2c0")
+species_name = "Rattata"
+dex_id = "DEX_RATTATA"
+type1 = "NORMAL"
+type2 = ""
+abilities = ["Run Away", "Guts", "Hustle"]
+hp = 30
+attack = 56
+defense = 35
+sp_attack = 25
+sp_defense = 35
+speed = 72
+weight = 3.5
+gender_ratio_female = 50.0
+base_xp_yield = 51
+capture_rate = 255
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("12_thaw5"), ExtResource("13_pimiw")]
+lvl_learnset = {
+4: ExtResource("1_rlicm"),
+7: ExtResource("2_8fsgd"),
+10: ExtResource("3_rs75p"),
+13: ExtResource("4_kehu0"),
+16: ExtResource("5_xd15v"),
+19: ExtResource("6_e86n7"),
+22: ExtResource("7_kvst7"),
+25: ExtResource("8_e0e5g"),
+28: ExtResource("9_ywoj1"),
+31: ExtResource("10_p4iuj"),
+34: ExtResource("11_v7hi8")
+}
+tm_learnset = []

@@ -1,0 +1,60 @@
+[gd_resource type="Resource" load_steps=21 format=3 uid="uid://djsc116e74fqx"]
+
+[ext_resource type="Resource" uid="uid://d3qpvwq7gmg7x" path="res://moves/normal moves/leer_move.tres" id="1_t050t"]
+[ext_resource type="Resource" uid="uid://dyvmivqaex41k" path="res://moves/grass moves/leafage_move.tres" id="2_f5eod"]
+[ext_resource type="Resource" uid="uid://wxye2xor2d4d" path="res://moves/normal moves/quick_attack_move.tres" id="3_xctuu"]
+[ext_resource type="Resource" uid="uid://5g0k6gk753bw" path="res://moves/grass moves/mega_drain_move.tres" id="4_65xbo"]
+[ext_resource type="Resource" uid="uid://lyib0vmg5rxd" path="res://moves/dark moves/pursuit_move.tres" id="5_w26tf"]
+[ext_resource type="Resource" uid="uid://ceb4wqptkkhlh" path="res://moves/fighting moves/quick_guard_attack.tres" id="6_1c7ij"]
+[ext_resource type="Resource" uid="uid://cfg57l6yf08n1" path="res://moves/grass moves/leaf_blade_move.tres" id="7_dhhfu"]
+[ext_resource type="Resource" uid="uid://desbfcartwn8n" path="res://moves/psychic moves/agility_move.tres" id="8_2yc2f"]
+[ext_resource type="Resource" uid="uid://d3s5yiuaqojuu" path="res://moves/normal moves/slam_move.tres" id="9_myir2"]
+[ext_resource type="Resource" uid="uid://clr4ldvrdr8st" path="res://moves/fighting moves/detect_move.tres" id="10_fkr1e"]
+[ext_resource type="Resource" uid="uid://ceojkeqaaq5p1" path="res://moves/bug moves/x-scissor_move.tres" id="11_wne17"]
+[ext_resource type="Resource" uid="uid://biod6a6ojslll" path="res://moves/normal moves/screech_move.tres" id="12_dk2nu"]
+[ext_resource type="Resource" uid="uid://dw3patciebohi" path="res://moves/normal moves/false_swipe_move.tres" id="13_ygpvp"]
+[ext_resource type="Resource" uid="uid://rdr288ab4xlm" path="res://moves/grass moves/leaf_storm_move.tres" id="14_wtc1n"]
+[ext_resource type="Resource" uid="uid://b42sbnduvtb1i" path="res://moves/bug moves/fury_cutter_move.tres" id="15_uyrpb"]
+[ext_resource type="Resource" uid="uid://c5xx5810eypie" path="res://moves/grass moves/giga_drain_move.tres" id="16_gfdex"]
+[ext_resource type="Resource" uid="uid://hlvw2ielsmsa" path="res://moves/grass moves/energy_ball_move.tres" id="17_r1h0u"]
+[ext_resource type="Resource" uid="uid://bbdcrcjhlodse" path="res://moves/normal moves/endeavor_move.tres" id="18_5xoms"]
+[ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="19_dm4rb"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="20_jhkwt"]
+
+[resource]
+script = ExtResource("20_jhkwt")
+species_name = ""
+dex_id = "DEX_GROVYLE"
+type1 = "GRASS"
+type2 = ""
+abilities = ["Overgrow", "Overgrow", "Unburden"]
+hp = 50
+attack = 65
+defense = 45
+sp_attack = 85
+sp_defense = 65
+speed = 95
+weight = 21.6
+gender_ratio_female = 12.5
+base_xp_yield = 142
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("16_gfdex"), ExtResource("17_r1h0u"), ExtResource("18_5xoms"), ExtResource("19_dm4rb")]
+lvl_learnset = {
+-1: ExtResource("15_uyrpb"),
+3: ExtResource("1_t050t"),
+7: ExtResource("2_f5eod"),
+9: ExtResource("3_xctuu"),
+13: ExtResource("4_65xbo"),
+15: ExtResource("5_w26tf"),
+19: ExtResource("6_1c7ij"),
+24: ExtResource("11_wne17"),
+28: ExtResource("8_2yc2f"),
+32: ExtResource("9_myir2"),
+37: ExtResource("10_fkr1e"),
+40: ExtResource("7_dhhfu"),
+45: ExtResource("12_dk2nu"),
+49: ExtResource("13_ygpvp"),
+53: ExtResource("14_wtc1n")
+}
+tm_learnset = []

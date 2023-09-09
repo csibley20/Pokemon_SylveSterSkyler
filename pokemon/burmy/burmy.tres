@@ -1,0 +1,36 @@
+[gd_resource type="Resource" load_steps=8 format=3 uid="uid://dbhwsu5vef8ub"]
+
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_45oug"]
+[ext_resource type="Resource" uid="uid://dgn863ic7ytsp" path="res://moves/normal moves/protect_move.tres" id="1_lbr44"]
+[ext_resource type="Resource" uid="uid://dttin1oe5o7bb" path="res://moves/bug moves/string_shot_move.tres" id="1_lwfer"]
+[ext_resource type="Resource" uid="uid://bxtbkntjv4y8l" path="res://moves/bug moves/struggle_bug_move.tres" id="2_16bfn"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="2_rko3l"]
+[ext_resource type="Resource" uid="uid://c2nu1qyogah6g" path="res://moves/bug moves/bug_bite_move.tres" id="3_cbcsg"]
+[ext_resource type="Resource" uid="uid://dk2kc3ripbg1p" path="res://moves/normal moves/hidden_power_move.tres" id="4_c0hcv"]
+
+[resource]
+script = ExtResource("1_45oug")
+species_name = "Burmy"
+dex_id = "DEX_BURMY"
+type1 = "BUG"
+type2 = ""
+abilities = ["Shed Skin", "Shed Skin", "Overcoat"]
+hp = 40
+attack = 29
+defense = 45
+sp_attack = 29
+sp_defense = 45
+speed = 36
+weight = 3.4
+gender_ratio_female = 50.0
+base_xp_yield = 45
+capture_rate = 120
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("1_lbr44"), ExtResource("2_rko3l")]
+lvl_learnset = {
+5: ExtResource("1_lwfer"),
+10: ExtResource("2_16bfn"),
+15: ExtResource("3_cbcsg"),
+20: ExtResource("4_c0hcv")
+}
+tm_learnset = []

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://btr7nhl4dckuw"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="2_w3yj7"]
+
+[resource]
+script = ExtResource("2_w3yj7")
+name = "Tackle"
+category = "Physical"
+effect = []
+power = 40
+type = "NORMAL"
+accuracy = 1.0
+pp = 35
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

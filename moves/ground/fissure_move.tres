@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bf467eolmdwmo"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_3yj2s"]
+
+[resource]
+script = ExtResource("1_3yj2s")
+name = "Fissure"
+category = "Physical"
+effect = []
+power = 0
+type = "GROUND"
+accuracy = 0.3
+pp = 5
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

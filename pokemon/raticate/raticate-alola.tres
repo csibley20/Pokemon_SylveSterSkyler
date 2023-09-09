@@ -1,0 +1,51 @@
+[gd_resource type="Resource" load_steps=16 format=3 uid="uid://o741ehk5m3v8"]
+
+[ext_resource type="Resource" uid="uid://wxye2xor2d4d" path="res://moves/normal moves/quick_attack_move.tres" id="1_8rooj"]
+[ext_resource type="Resource" uid="uid://cufgcdxpf64wb" path="res://moves/normal moves/focus_energy_move.tres" id="2_ql0n7"]
+[ext_resource type="Resource" uid="uid://dvrl1b34q3s7o" path="res://moves/dark moves/bite_move.tres" id="3_1psw5"]
+[ext_resource type="Resource" uid="uid://lyib0vmg5rxd" path="res://moves/dark moves/pursuit_move.tres" id="4_cei15"]
+[ext_resource type="Resource" uid="uid://b0a5vqlnc57dh" path="res://moves/normal moves/hyper_fang_move.tres" id="5_3v4xo"]
+[ext_resource type="Resource" uid="uid://bs7k7f1m0gmka" path="res://moves/dark moves/assurance_move.tres" id="6_tf2td"]
+[ext_resource type="Resource" uid="uid://yflds0p4k47t" path="res://moves/dark moves/crunch_move.tres" id="7_6crc7"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="8_mrn2t"]
+[ext_resource type="Resource" uid="uid://cwocj8gvy5tv2" path="res://moves/normal moves/super_fang_move.tres" id="9_4x463"]
+[ext_resource type="Resource" uid="uid://lynxc3oovbas" path="res://moves/normal moves/double-edge_move.tres" id="10_u8i0e"]
+[ext_resource type="Resource" uid="uid://bbdcrcjhlodse" path="res://moves/normal moves/endeavor_move.tres" id="11_mm2mk"]
+[ext_resource type="Resource" uid="uid://dw5nxdndoi1v1" path="res://moves/normal moves/swords_dance_move.tres" id="12_rlsgw"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="13_kcqb4"]
+[ext_resource type="Resource" uid="uid://cisxxjubocdto" path="res://moves/normal moves/tail_whip_move.tres" id="14_ushys"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="15_vm6kw"]
+
+[resource]
+script = ExtResource("15_vm6kw")
+species_name = "Raticate"
+dex_id = "DEX_RATICATE-ALOLA"
+type1 = "DARK"
+type2 = "NORMAL"
+abilities = ["Gluttony", "Hustle", "Thick Fat"]
+hp = 75
+attack = 71
+defense = 70
+sp_attack = 40
+sp_defense = 80
+speed = 77
+weight = 25.5
+gender_ratio_female = 50.0
+base_xp_yield = 145
+capture_rate = 127
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("12_rlsgw"), ExtResource("13_kcqb4"), ExtResource("14_ushys")]
+lvl_learnset = {
+4: ExtResource("1_8rooj"),
+7: ExtResource("2_ql0n7"),
+10: ExtResource("3_1psw5"),
+13: ExtResource("4_cei15"),
+16: ExtResource("5_3v4xo"),
+19: ExtResource("6_tf2td"),
+24: ExtResource("7_6crc7"),
+29: ExtResource("8_mrn2t"),
+34: ExtResource("9_4x463"),
+39: ExtResource("10_u8i0e"),
+44: ExtResource("11_mm2mk")
+}
+tm_learnset = []

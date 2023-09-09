@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cfg57l6yf08n1"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_ov1s8"]
+
+[resource]
+script = ExtResource("1_ov1s8")
+name = "Leaf Blade"
+category = "Physical"
+effect = []
+power = 90
+type = "GRASS"
+accuracy = 1.0
+pp = 15
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = true
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

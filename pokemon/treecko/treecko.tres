@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=17 format=3 uid="uid://d2ynh7blte708"]
+
+[ext_resource type="Resource" uid="uid://d3qpvwq7gmg7x" path="res://moves/normal moves/leer_move.tres" id="1_kp42c"]
+[ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="1_yqx2l"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="2_8mbcl"]
+[ext_resource type="Resource" uid="uid://dyvmivqaex41k" path="res://moves/grass moves/leafage_move.tres" id="2_o1obk"]
+[ext_resource type="Resource" uid="uid://wxye2xor2d4d" path="res://moves/normal moves/quick_attack_move.tres" id="3_sp3uv"]
+[ext_resource type="Resource" uid="uid://5g0k6gk753bw" path="res://moves/grass moves/mega_drain_move.tres" id="4_nvnu1"]
+[ext_resource type="Resource" uid="uid://lyib0vmg5rxd" path="res://moves/dark moves/pursuit_move.tres" id="5_0mwv0"]
+[ext_resource type="Resource" uid="uid://ceb4wqptkkhlh" path="res://moves/fighting moves/quick_guard_attack.tres" id="6_7el2r"]
+[ext_resource type="Resource" uid="uid://c5xx5810eypie" path="res://moves/grass moves/giga_drain_move.tres" id="7_hc2gd"]
+[ext_resource type="Resource" uid="uid://desbfcartwn8n" path="res://moves/psychic moves/agility_move.tres" id="8_hnwrl"]
+[ext_resource type="Resource" uid="uid://d3s5yiuaqojuu" path="res://moves/normal moves/slam_move.tres" id="9_dnifr"]
+[ext_resource type="Resource" uid="uid://clr4ldvrdr8st" path="res://moves/fighting moves/detect_move.tres" id="10_m5ris"]
+[ext_resource type="Resource" uid="uid://hlvw2ielsmsa" path="res://moves/grass moves/energy_ball_move.tres" id="11_6ddmb"]
+[ext_resource type="Resource" uid="uid://biod6a6ojslll" path="res://moves/normal moves/screech_move.tres" id="12_7juee"]
+[ext_resource type="Resource" uid="uid://bbdcrcjhlodse" path="res://moves/normal moves/endeavor_move.tres" id="13_pcsmu"]
+[ext_resource type="Resource" uid="uid://rdr288ab4xlm" path="res://moves/grass moves/leaf_storm_move.tres" id="14_5pwyy"]
+
+[resource]
+script = ExtResource("2_8mbcl")
+species_name = ""
+dex_id = "DEX_TREECKO"
+type1 = "GRASS"
+type2 = ""
+abilities = ["Overgrow", "Overgrow", "Unburden"]
+hp = 40
+attack = 45
+defense = 35
+sp_attack = 65
+sp_defense = 55
+speed = 70
+weight = 5.0
+gender_ratio_female = 12.5
+base_xp_yield = 62
+capture_rate = 45
+growth_rate = "Medium Slow"
+lvl_one_moves = [ExtResource("1_yqx2l")]
+lvl_learnset = {
+3: ExtResource("1_kp42c"),
+7: ExtResource("2_o1obk"),
+9: ExtResource("3_sp3uv"),
+13: ExtResource("4_nvnu1"),
+15: ExtResource("5_0mwv0"),
+18: ExtResource("6_7el2r"),
+21: ExtResource("7_hc2gd"),
+25: ExtResource("8_hnwrl"),
+29: ExtResource("9_dnifr"),
+33: ExtResource("10_m5ris"),
+36: ExtResource("11_6ddmb"),
+39: ExtResource("12_7juee"),
+41: ExtResource("13_pcsmu"),
+46: ExtResource("14_5pwyy")
+}
+tm_learnset = []

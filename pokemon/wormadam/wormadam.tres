@@ -1,0 +1,59 @@
+[gd_resource type="Resource" load_steps=20 format=3 uid="uid://dqeeh870dkv5h"]
+
+[ext_resource type="Resource" uid="uid://dttin1oe5o7bb" path="res://moves/bug moves/string_shot_move.tres" id="1_a6482"]
+[ext_resource type="Resource" uid="uid://bxtbkntjv4y8l" path="res://moves/bug moves/struggle_bug_move.tres" id="2_xjqrd"]
+[ext_resource type="Resource" uid="uid://c2nu1qyogah6g" path="res://moves/bug moves/bug_bite_move.tres" id="3_306e0"]
+[ext_resource type="Resource" uid="uid://dk2kc3ripbg1p" path="res://moves/normal moves/hidden_power_move.tres" id="4_o8k6q"]
+[ext_resource type="Resource" uid="uid://cwn7p08e55pat" path="res://moves/psychic moves/confusion_move.tres" id="5_hb1ev"]
+[ext_resource type="Resource" uid="uid://cok64f2edcpb5" path="res://moves/grass moves/razor_leaf_move.tres" id="6_lqcxg"]
+[ext_resource type="Resource" uid="uid://d0r4veiwcnp5o" path="res://moves/normal moves/growth_move.tres" id="7_kxl6g"]
+[ext_resource type="Resource" uid="uid://s3dnnw0yilwe" path="res://moves/psychic moves/psybeam_move.tres" id="8_duf51"]
+[ext_resource type="Resource" uid="uid://cchk07j2p0tdw" path="res://moves/bug moves/infestation_move.tres" id="9_2v8uq"]
+[ext_resource type="Resource" uid="uid://bo0pcwje8867j" path="res://moves/normal moves/flail_move.tres" id="10_80hh6"]
+[ext_resource type="Resource" uid="uid://cx1p85dp5g73d" path="res://moves/normal moves/attract_move.tres" id="11_4hsvi"]
+[ext_resource type="Resource" uid="uid://cww1eunf5bs22" path="res://moves/psychic moves/psychic_move.tres" id="12_m4xe6"]
+[ext_resource type="Resource" uid="uid://rdr288ab4xlm" path="res://moves/grass moves/leaf_storm_move.tres" id="13_su4xe"]
+[ext_resource type="Resource" uid="uid://bmdxnffrd1b87" path="res://moves/bug moves/bug_buzz_move.tres" id="14_1tq2g"]
+[ext_resource type="Resource" uid="uid://dsncd8ilj7efa" path="res://moves/bug moves/quiver_dance_move.tres" id="15_1ccmy"]
+[ext_resource type="Resource" uid="uid://cvsvdi7vt5y3r" path="res://moves/dark moves/sucker_punch_move.tres" id="16_6sukq"]
+[ext_resource type="Resource" uid="uid://dgn863ic7ytsp" path="res://moves/normal moves/protect_move.tres" id="17_2kla3"]
+[ext_resource type="Resource" uid="uid://btr7nhl4dckuw" path="res://moves/normal moves/tackle_move.tres" id="18_u87yo"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="19_so57t"]
+
+[resource]
+script = ExtResource("19_so57t")
+species_name = "Wormadam"
+dex_id = "DEX_WORMADAM"
+type1 = "BUG"
+type2 = "GRASS"
+abilities = ["Anticipation", "Anticipation", "Overcoat"]
+hp = 60
+attack = 59
+defense = 85
+sp_attack = 79
+sp_defense = 105
+speed = 36
+weight = 6.5
+gender_ratio_female = 100.0
+base_xp_yield = 148
+capture_rate = 45
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("16_6sukq"), ExtResource("17_2kla3"), ExtResource("18_u87yo")]
+lvl_learnset = {
+-1: ExtResource("15_1ccmy"),
+5: ExtResource("1_a6482"),
+10: ExtResource("2_xjqrd"),
+15: ExtResource("3_306e0"),
+20: ExtResource("4_o8k6q"),
+23: ExtResource("5_hb1ev"),
+26: ExtResource("6_lqcxg"),
+29: ExtResource("7_kxl6g"),
+32: ExtResource("8_duf51"),
+35: ExtResource("9_2v8uq"),
+38: ExtResource("10_80hh6"),
+41: ExtResource("11_4hsvi"),
+44: ExtResource("12_m4xe6"),
+47: ExtResource("13_su4xe"),
+50: ExtResource("14_1tq2g")
+}
+tm_learnset = []

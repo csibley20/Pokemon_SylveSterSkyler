@@ -1,0 +1,51 @@
+[gd_resource type="Resource" load_steps=15 format=3 uid="uid://b5ew7ry1h24g2"]
+
+[ext_resource type="Resource" uid="uid://cshpvs544kmx" path="res://moves/flying moves/feather_dance_move.tres" id="1_3t4gi"]
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_8618q"]
+[ext_resource type="Resource" uid="uid://dmgnnsr1nh26q" path="res://moves/normal moves/echoed_voice_move.tres" id="2_f6sa4"]
+[ext_resource type="Resource" uid="uid://qqljor8e18ya" path="res://moves/flying moves/peck_move.tres" id="2_nswt8"]
+[ext_resource type="Resource" uid="uid://cgppsmumhmcp5" path="res://moves/fighting moves/rock_smash_move.tres" id="3_qohk3"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="3_u50b0"]
+[ext_resource type="Resource" uid="uid://cnf50vpamex2p" path="res://moves/normal moves/supersonic_move.tres" id="4_qobla"]
+[ext_resource type="Resource" uid="uid://b4wac0spa51hf" path="res://moves/flying moves/pluck_move.tres" id="5_2xqpl"]
+[ext_resource type="Resource" uid="uid://b685yw06f685l" path="res://moves/normal moves/fury_attack_move.tres" id="7_3o01v"]
+[ext_resource type="Resource" uid="uid://biod6a6ojslll" path="res://moves/normal moves/screech_move.tres" id="8_2aavw"]
+[ext_resource type="Resource" uid="uid://cey2h4jkehufl" path="res://moves/flying moves/drill_peck_move.tres" id="9_3gv1u"]
+[ext_resource type="Resource" uid="uid://213bee0xd8lx" path="res://moves/grass moves/bullet_seed_move.tres" id="10_icgky"]
+[ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="11_pl6v6"]
+[ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="12_j8abm"]
+
+[resource]
+script = ExtResource("3_u50b0")
+species_name = "Pikipek"
+dex_id = "DEX_PIKIPEK"
+type1 = "NORMAL"
+type2 = "FLYING"
+abilities = ["Keen Eye", "Skill Link", "Pickup"]
+hp = 35
+attack = 75
+defense = 30
+sp_attack = 30
+sp_defense = 30
+speed = 65
+weight = 1.2
+gender_ratio_female = 50.0
+base_xp_yield = 53
+capture_rate = 255
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("2_nswt8")]
+lvl_learnset = {
+3: ExtResource("1_8618q"),
+7: ExtResource("2_f6sa4"),
+9: ExtResource("3_qohk3"),
+13: ExtResource("4_qobla"),
+15: ExtResource("5_2xqpl"),
+19: ExtResource("1_3t4gi"),
+21: ExtResource("7_3o01v"),
+25: ExtResource("8_2aavw"),
+27: ExtResource("9_3gv1u"),
+31: ExtResource("10_icgky"),
+33: ExtResource("11_pl6v6"),
+37: ExtResource("12_j8abm")
+}
+tm_learnset = []

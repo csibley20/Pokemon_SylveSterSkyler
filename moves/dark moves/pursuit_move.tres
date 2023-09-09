@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://lyib0vmg5rxd"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_pgiuj"]
+
+[resource]
+script = ExtResource("1_pgiuj")
+name = "Pursuit"
+category = "Physical"
+effect = []
+power = 40
+type = "DARK"
+accuracy = 1.0
+pp = 20
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+heal = false
+defrost = false

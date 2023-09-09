@@ -1,0 +1,52 @@
+[gd_resource type="Resource" load_steps=16 format=3 uid="uid://bd1hu0kb7mlxp"]
+
+[ext_resource type="Resource" uid="uid://08j0748j68nf" path="res://moves/rock moves/rock_blast_move.tres" id="1_00n8c"]
+[ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_kl5pw"]
+[ext_resource type="Resource" uid="uid://dmgnnsr1nh26q" path="res://moves/normal moves/echoed_voice_move.tres" id="2_7fljg"]
+[ext_resource type="Resource" uid="uid://qqljor8e18ya" path="res://moves/flying moves/peck_move.tres" id="2_cmbf0"]
+[ext_resource type="Resource" uid="uid://cgppsmumhmcp5" path="res://moves/fighting moves/rock_smash_move.tres" id="3_dhpiw"]
+[ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="3_o8vdm"]
+[ext_resource type="Resource" uid="uid://cnf50vpamex2p" path="res://moves/normal moves/supersonic_move.tres" id="4_515ru"]
+[ext_resource type="Resource" uid="uid://b4wac0spa51hf" path="res://moves/flying moves/pluck_move.tres" id="5_n7cp5"]
+[ext_resource type="Resource" uid="uid://cshpvs544kmx" path="res://moves/flying moves/feather_dance_move.tres" id="6_ddrt0"]
+[ext_resource type="Resource" uid="uid://b685yw06f685l" path="res://moves/normal moves/fury_attack_move.tres" id="7_oa6qb"]
+[ext_resource type="Resource" uid="uid://biod6a6ojslll" path="res://moves/normal moves/screech_move.tres" id="8_g6uyt"]
+[ext_resource type="Resource" uid="uid://cey2h4jkehufl" path="res://moves/flying moves/drill_peck_move.tres" id="9_kak1i"]
+[ext_resource type="Resource" uid="uid://213bee0xd8lx" path="res://moves/grass moves/bullet_seed_move.tres" id="10_f4gcu"]
+[ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="11_f5w8a"]
+[ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="12_rfrop"]
+
+[resource]
+script = ExtResource("3_o8vdm")
+species_name = "Trumbeak"
+dex_id = "DEX_TRUMBEAK"
+type1 = "NORMAL"
+type2 = "FLYING"
+abilities = []
+hp = 55
+attack = 85
+defense = 50
+sp_attack = 40
+sp_defense = 50
+speed = 75
+weight = 14.8
+gender_ratio_female = 50.0
+base_xp_yield = 124
+capture_rate = 120
+growth_rate = "Medium Fast"
+lvl_one_moves = [ExtResource("1_00n8c"), ExtResource("2_cmbf0")]
+lvl_learnset = {
+3: ExtResource("1_kl5pw"),
+7: ExtResource("2_7fljg"),
+9: ExtResource("3_dhpiw"),
+13: ExtResource("4_515ru"),
+16: ExtResource("5_n7cp5"),
+21: ExtResource("6_ddrt0"),
+24: ExtResource("7_oa6qb"),
+29: ExtResource("8_g6uyt"),
+32: ExtResource("9_kak1i"),
+37: ExtResource("10_f4gcu"),
+40: ExtResource("11_f5w8a"),
+45: ExtResource("12_rfrop")
+}
+tm_learnset = []

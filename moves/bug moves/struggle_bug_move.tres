@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bxtbkntjv4y8l"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_w5e0l"]
+
+[resource]
+script = ExtResource("1_w5e0l")
+name = "Struggle Bug"
+category = "Special"
+effect = []
+power = 50
+type = "BUG"
+accuracy = 1.0
+pp = 20
+priority_bracket = 0
+contact = false
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b685yw06f685l"]
+
+[ext_resource type="Script" path="res://moves/move_base.gd" id="1_p0mmt"]
+
+[resource]
+script = ExtResource("1_p0mmt")
+name = "Fury Attack"
+category = "Physical"
+effect = []
+power = 15
+type = "NORMAL"
+accuracy = 0.85
+pp = 20
+priority_bracket = 0
+contact = true
+targeting = true
+bullet = false
+wind = false
+sound = false
+slice = false
+punch = false
+bite = false
+powder = false
+dance = false
+heal = false
+defrost = false
