@@ -27,3 +27,11 @@ extends Resource
 
 @export var lvl_learnset: Dictionary
 @export var tm_learnset: Array
+
+@export var sprite_front: CompressedTexture2D
+@export var sprite_back: CompressedTexture2D
+@export var sprite_front_shiny: CompressedTexture2D
+@export var sprite_back_shiny: CompressedTexture2D
+@export var sprite_icons: CompressedTexture2D
+
+@export var cry: AudioStreamOggVorbis

@@ -1,6 +1,7 @@
-[gd_resource type="Resource" load_steps=16 format=3 uid="uid://bd1hu0kb7mlxp"]
+[gd_resource type="Resource" load_steps=22 format=3 uid="uid://bd1hu0kb7mlxp"]
 
 [ext_resource type="Resource" uid="uid://08j0748j68nf" path="res://moves/rock moves/rock_blast_move.tres" id="1_00n8c"]
+[ext_resource type="AudioStream" uid="uid://bbi5ga0tuj4yq" path="res://pokemon/trumbeak/trumbeak_cry.ogg" id="1_ipatq"]
 [ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_kl5pw"]
 [ext_resource type="Resource" uid="uid://dmgnnsr1nh26q" path="res://moves/normal moves/echoed_voice_move.tres" id="2_7fljg"]
 [ext_resource type="Resource" uid="uid://qqljor8e18ya" path="res://moves/flying moves/peck_move.tres" id="2_cmbf0"]
@@ -15,6 +16,11 @@
 [ext_resource type="Resource" uid="uid://213bee0xd8lx" path="res://moves/grass moves/bullet_seed_move.tres" id="10_f4gcu"]
 [ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="11_f5w8a"]
 [ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="12_rfrop"]
+[ext_resource type="Texture2D" uid="uid://dycds7otxc8kg" path="res://pokemon/trumbeak/trumbeak_back.png" id="17_uup7q"]
+[ext_resource type="Texture2D" uid="uid://jsmn30avyx26" path="res://pokemon/trumbeak/trumbeak_back_shiny.png" id="18_4erdi"]
+[ext_resource type="Texture2D" uid="uid://cdvwbdh87opge" path="res://pokemon/trumbeak/trumbeak_front.png" id="19_cgww7"]
+[ext_resource type="Texture2D" uid="uid://28popi2gaunv" path="res://pokemon/trumbeak/trumbeak_front_shiny.png" id="20_v4qkl"]
+[ext_resource type="Texture2D" uid="uid://defoy18yyc8oj" path="res://pokemon/trumbeak/trumbeak_icon.png" id="21_gmcju"]
 
 [resource]
 script = ExtResource("3_o8vdm")
@@ -50,3 +56,9 @@ lvl_learnset = {
 45: ExtResource("12_rfrop")
 }
 tm_learnset = []
+sprite_front = ExtResource("19_cgww7")
+sprite_back = ExtResource("17_uup7q")
+sprite_front_shiny = ExtResource("20_v4qkl")
+sprite_back_shiny = ExtResource("18_4erdi")
+sprite_icons = ExtResource("21_gmcju")
+cry = ExtResource("1_ipatq")

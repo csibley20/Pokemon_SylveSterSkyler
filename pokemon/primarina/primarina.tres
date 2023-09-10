@@ -1,5 +1,6 @@
-[gd_resource type="Resource" load_steps=18 format=3 uid="uid://3ci3b5014nvi"]
+[gd_resource type="Resource" load_steps=24 format=3 uid="uid://3ci3b5014nvi"]
 
+[ext_resource type="AudioStream" uid="uid://sxieuupby5jv" path="res://pokemon/primarina/primarina_cry.ogg" id="1_0505y"]
 [ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_ujmqu"]
 [ext_resource type="Resource" uid="uid://bvb67rusck1rq" path="res://moves/water moves/water_gun_move.tres" id="2_xa2tl"]
 [ext_resource type="Resource" uid="uid://bfi7ij34orty3" path="res://moves/fairy moves/disarming_voice_move.tres" id="3_2pxly"]
@@ -17,6 +18,11 @@
 [ext_resource type="Resource" uid="uid://bt5mqgbj8ruo6" path="res://moves/water moves/sparkling_aria_move.tres" id="15_mhbb0"]
 [ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="16_w8qdn"]
 [ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="17_qmkcf"]
+[ext_resource type="Texture2D" uid="uid://dh13hgj125qnv" path="res://pokemon/primarina/primarina_back.png" id="18_n0x4t"]
+[ext_resource type="Texture2D" uid="uid://b1rvh788uyj2c" path="res://pokemon/primarina/primarina_back_shiny.png" id="19_jm80v"]
+[ext_resource type="Texture2D" uid="uid://c6q8h3onn328n" path="res://pokemon/primarina/primarina_front.png" id="20_ymobe"]
+[ext_resource type="Texture2D" uid="uid://bb5nbbjdmwpch" path="res://pokemon/primarina/primarina_front_shiny.png" id="21_atpck"]
+[ext_resource type="Texture2D" uid="uid://bht7umqah2ckf" path="res://pokemon/primarina/primarina_icon.png" id="22_o5t0v"]
 
 [resource]
 script = ExtResource("17_qmkcf")
@@ -55,3 +61,9 @@ lvl_learnset = {
 60: ExtResource("14_4hdlc")
 }
 tm_learnset = []
+sprite_front = ExtResource("20_ymobe")
+sprite_back = ExtResource("18_n0x4t")
+sprite_front_shiny = ExtResource("21_atpck")
+sprite_back_shiny = ExtResource("19_jm80v")
+sprite_icons = ExtResource("22_o5t0v")
+cry = ExtResource("1_0505y")

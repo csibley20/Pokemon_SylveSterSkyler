@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6f8pxk3u2m4p"]
+
+[ext_resource type="Script" path="res://game code/battle code/battle_mechanics.gd" id="1_4ijhk"]
+[ext_resource type="Texture2D" uid="uid://b1dqndc581o1p" path="res://game code/player/placeholder_char.png" id="2_anapc"]
+
+[node name="battle_scene" type="Node2D"]
+script = ExtResource("1_4ijhk")
+
+[node name="Player_Sprite" type="Sprite2D" parent="."]
+position = Vector2(292, 313)
+scale = Vector2(13, 13)
+texture = ExtResource("2_anapc")
+
+[node name="Enemy_Sprite" type="Sprite2D" parent="."]
+position = Vector2(903, 174)
+scale = Vector2(13, 13)
+texture = ExtResource("2_anapc")

@@ -1,6 +1,7 @@
-[gd_resource type="Resource" load_steps=17 format=3 uid="uid://cnakd3u1uqwyd"]
+[gd_resource type="Resource" load_steps=23 format=3 uid="uid://cnakd3u1uqwyd"]
 
 [ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_1rbg3"]
+[ext_resource type="AudioStream" uid="uid://b48nnfpj5u2js" path="res://pokemon/brionne/brionne_cry.ogg" id="1_eqnd4"]
 [ext_resource type="Resource" uid="uid://bvb67rusck1rq" path="res://moves/water moves/water_gun_move.tres" id="2_xd7xn"]
 [ext_resource type="Resource" uid="uid://bfi7ij34orty3" path="res://moves/fairy moves/disarming_voice_move.tres" id="3_cq8ax"]
 [ext_resource type="Resource" uid="uid://brek4agswf1pu" path="res://moves/fairy moves/baby-doll_eyes_move.tres" id="4_rcqsu"]
@@ -16,10 +17,15 @@
 [ext_resource type="Resource" uid="uid://7ef2g1fnlbog" path="res://moves/fairy moves/misty_terrain_move.tres" id="14_o85a8"]
 [ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="15_wwm7u"]
 [ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="16_pmt1i"]
+[ext_resource type="Texture2D" uid="uid://bps7j6lu1gwb" path="res://pokemon/brionne/brionne_back.png" id="18_x4nhe"]
+[ext_resource type="Texture2D" uid="uid://brr382xojcxif" path="res://pokemon/brionne/brionne_back_shiny.png" id="19_077wu"]
+[ext_resource type="Texture2D" uid="uid://dugmyrhpoovpo" path="res://pokemon/brionne/brionne_front.png" id="20_7af87"]
+[ext_resource type="Texture2D" uid="uid://bemiwtdsocbif" path="res://pokemon/brionne/brionne_front_shiny.png" id="21_kyw1i"]
+[ext_resource type="Texture2D" uid="uid://bixeh8a67j8gg" path="res://pokemon/brionne/brionne_icon.png" id="22_lnoji"]
 
 [resource]
 script = ExtResource("16_pmt1i")
-species_name = ""
+species_name = "Brionne"
 dex_id = "DEX_BRIONNE"
 type1 = "WATER"
 type2 = ""
@@ -53,3 +59,9 @@ lvl_learnset = {
 55: ExtResource("14_o85a8")
 }
 tm_learnset = []
+sprite_front = ExtResource("20_7af87")
+sprite_back = ExtResource("18_x4nhe")
+sprite_front_shiny = ExtResource("21_kyw1i")
+sprite_back_shiny = ExtResource("19_077wu")
+sprite_icons = ExtResource("22_lnoji")
+cry = ExtResource("1_eqnd4")

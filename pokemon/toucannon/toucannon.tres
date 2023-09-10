@@ -1,7 +1,8 @@
-[gd_resource type="Resource" load_steps=17 format=3 uid="uid://bwpuejci6bypq"]
+[gd_resource type="Resource" load_steps=23 format=3 uid="uid://bwpuejci6bypq"]
 
 [ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_4myib"]
 [ext_resource type="Resource" uid="uid://08j0748j68nf" path="res://moves/rock moves/rock_blast_move.tres" id="1_l6dt7"]
+[ext_resource type="AudioStream" uid="uid://c7jk4bcfc3w5q" path="res://pokemon/toucannon/toucannon_cry.ogg" id="1_v7vd6"]
 [ext_resource type="Resource" uid="uid://qqljor8e18ya" path="res://moves/flying moves/peck_move.tres" id="2_06oww"]
 [ext_resource type="Resource" uid="uid://dmgnnsr1nh26q" path="res://moves/normal moves/echoed_voice_move.tres" id="2_gkirb"]
 [ext_resource type="Resource" uid="uid://cgppsmumhmcp5" path="res://moves/fighting moves/rock_smash_move.tres" id="3_qn38y"]
@@ -16,6 +17,11 @@
 [ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="11_0qu0r"]
 [ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="12_t3upy"]
 [ext_resource type="Resource" uid="uid://b1pkhrp05rmbr" path="res://moves/flying moves/beak_blast_move.tres" id="13_xmusi"]
+[ext_resource type="Texture2D" uid="uid://cv35gqjyf7kvn" path="res://pokemon/toucannon/toucannon_back.png" id="17_kphon"]
+[ext_resource type="Texture2D" uid="uid://tfsfthf1enxf" path="res://pokemon/toucannon/toucannon_back_shiny.png" id="18_5i6lg"]
+[ext_resource type="Texture2D" uid="uid://mfmbldqkajja" path="res://pokemon/toucannon/toucannon_front.png" id="19_se5x8"]
+[ext_resource type="Texture2D" uid="uid://bcg2dup5nklwm" path="res://pokemon/toucannon/toucannon_front_shiny.png" id="20_b8d2b"]
+[ext_resource type="Texture2D" uid="uid://ctkj1y1bm3nkq" path="res://pokemon/toucannon/toucannon_icon.png" id="21_lvhg4"]
 
 [resource]
 script = ExtResource("3_teavi")
@@ -52,3 +58,9 @@ lvl_learnset = {
 50: ExtResource("12_t3upy")
 }
 tm_learnset = []
+sprite_front = ExtResource("19_se5x8")
+sprite_back = ExtResource("17_kphon")
+sprite_front_shiny = ExtResource("20_b8d2b")
+sprite_back_shiny = ExtResource("18_5i6lg")
+sprite_icons = ExtResource("21_lvhg4")
+cry = ExtResource("1_v7vd6")

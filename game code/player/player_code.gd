@@ -10,6 +10,8 @@ var is_facing = "south"
 var elapsed = 0
 var steps = 0
 
+var party = []
+
 var input_call_stack
 
 signal player_moved
@@ -96,3 +98,7 @@ func make_move(motion_vector):
 	await tween.finished
 	moving = false
 	player_moved.emit()
+
+func add_to_party(pokemon):
+	if party.size() < 6:
+		party.append(pokemon)

@@ -1,8 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bwitbmjrhlc3s"]
+[gd_scene load_steps=8 format=3 uid="uid://bwitbmjrhlc3s"]
 
 [ext_resource type="Texture2D" uid="uid://b3ydaxgxtqh1v" path="res://tilemaps/testingtilemap.png" id="1_d8avl"]
 [ext_resource type="Script" path="res://locations/testing/TileMap.gd" id="2_0w5fj"]
 [ext_resource type="PackedScene" uid="uid://dpxmbvqawh3eb" path="res://game code/player/player.tscn" id="2_5g8lb"]
+[ext_resource type="PackedScene" uid="uid://b6f8pxk3u2m4p" path="res://game code/battle code/battle_scene.tscn" id="4_i6flt"]
+[ext_resource type="PackedScene" uid="uid://dfam8b4ha8uoo" path="res://game code/pokemon creation/pokemon_instance.tscn" id="5_c0kri"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pgatn"]
 texture = ExtResource("1_d8avl")
@@ -24,3 +26,8 @@ layer_0/tile_data = PackedInt32Array(0, 1, 0, 65537, 1, 0, 131074, 1, 0, 196611,
 script = ExtResource("2_0w5fj")
 
 [node name="player" parent="." instance=ExtResource("2_5g8lb")]
+
+[node name="battle_scene" parent="." instance=ExtResource("4_i6flt")]
+visible = false
+
+[node name="pokemon_instance" parent="." instance=ExtResource("5_c0kri")]

@@ -1,5 +1,6 @@
-[gd_resource type="Resource" load_steps=15 format=3 uid="uid://b5ew7ry1h24g2"]
+[gd_resource type="Resource" load_steps=21 format=3 uid="uid://b5ew7ry1h24g2"]
 
+[ext_resource type="AudioStream" uid="uid://b0n63l8hb58ai" path="res://pokemon/pikipek/pikipek_cry.ogg" id="1_0o3kd"]
 [ext_resource type="Resource" uid="uid://cshpvs544kmx" path="res://moves/flying moves/feather_dance_move.tres" id="1_3t4gi"]
 [ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_8618q"]
 [ext_resource type="Resource" uid="uid://dmgnnsr1nh26q" path="res://moves/normal moves/echoed_voice_move.tres" id="2_f6sa4"]
@@ -14,6 +15,11 @@
 [ext_resource type="Resource" uid="uid://213bee0xd8lx" path="res://moves/grass moves/bullet_seed_move.tres" id="10_icgky"]
 [ext_resource type="Resource" uid="uid://dollthph3mxju" path="res://moves/flying moves/roost_move.tres" id="11_pl6v6"]
 [ext_resource type="Resource" uid="uid://dua8aeeckvtfu" path="res://moves/normal moves/hyper_voice_move.tres" id="12_j8abm"]
+[ext_resource type="Texture2D" uid="uid://br73l0781qmhe" path="res://pokemon/pikipek/pikipek_back.png" id="15_xldjb"]
+[ext_resource type="Texture2D" uid="uid://cj2r2refth5k" path="res://pokemon/pikipek/pikipek_back_shiny.png" id="16_vkc4q"]
+[ext_resource type="Texture2D" uid="uid://hflg3m3hebp7" path="res://pokemon/pikipek/pikipek_front.png" id="17_nqkcs"]
+[ext_resource type="Texture2D" uid="uid://dfrpxqktw274c" path="res://pokemon/pikipek/pikipek_front_shiny.png" id="18_rjlhg"]
+[ext_resource type="Texture2D" uid="uid://dsjh0k2vymnfw" path="res://pokemon/pikipek/pikipek_icon.png" id="19_ffi2u"]
 
 [resource]
 script = ExtResource("3_u50b0")
@@ -49,3 +55,9 @@ lvl_learnset = {
 37: ExtResource("12_j8abm")
 }
 tm_learnset = []
+sprite_front = ExtResource("17_nqkcs")
+sprite_back = ExtResource("15_xldjb")
+sprite_front_shiny = ExtResource("18_rjlhg")
+sprite_back_shiny = ExtResource("16_vkc4q")
+sprite_icons = ExtResource("19_ffi2u")
+cry = ExtResource("1_0o3kd")

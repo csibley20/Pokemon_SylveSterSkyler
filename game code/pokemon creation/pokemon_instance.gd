@@ -1,6 +1,8 @@
 extends Node
 
 var display_name
+
+var pokemon_stat_location
 var pokemon_species
 
 var hp
@@ -32,11 +34,15 @@ var current_spatk
 var current_spdef
 var current_speed
 
+var shiny = false
 var feinted
+
+var front_sprite
+var back_sprite
 
 # List of natures and stat modifiers 
 # Nature: [atk, def, spatk, spdef, speed]
-var NATURE_DICT = {
+const NATURE_DICT = {
 	"Hardy": [1, 1, 1, 1, 1],
 	"Docile": [1, 1, 1, 1, 1],
 	"Bashful": [1, 1, 1, 1, 1],
@@ -69,15 +75,24 @@ var NATURE_DICT = {
 	"Sassy": [1, 1, 1, 1.1, 0.9]
 }
 
-func _init(species, nickname, init_level, nature):
-	display_name = nickname
-	pokemon_species = species.species_name
+func create_poke(species, init_level, nature):
+	pokemon_species = species
 	
 	level = init_level
 	
 	gender = randomize_gender(species.gender_ratio_female)
 	
 	nature_name = nature
+	
+	if randi_range(1, 8192) == 1:
+		shiny = true
+		
+	if shiny:
+		front_sprite = species.sprite_front_shiny
+		back_sprite = species.sprite_back_shiny
+	else:
+		front_sprite = species.sprite_front
+		back_sprite = species.sprite_back
 	
 	hp_iv = randi_range(0, 31)
 	atk_iv = randi_range(0, 31)

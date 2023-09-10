@@ -1,6 +1,7 @@
-[gd_resource type="Resource" load_steps=17 format=3 uid="uid://osw16r2cojn1"]
+[gd_resource type="Resource" load_steps=23 format=3 uid="uid://osw16r2cojn1"]
 
 [ext_resource type="Script" path="res://pokemon/pokemon_base.gd" id="1_t6bxb"]
+[ext_resource type="AudioStream" uid="uid://cxepwkqmxg8bk" path="res://pokemon/popplio/popplio_cry.ogg" id="1_tmo3k"]
 [ext_resource type="Resource" uid="uid://b7ecvxrey4ld" path="res://moves/normal moves/growl_move.tres" id="1_y5bll"]
 [ext_resource type="Resource" uid="uid://bvb67rusck1rq" path="res://moves/water moves/water_gun_move.tres" id="2_4mme3"]
 [ext_resource type="Resource" uid="uid://bfi7ij34orty3" path="res://moves/fairy moves/disarming_voice_move.tres" id="3_mnghk"]
@@ -16,6 +17,11 @@
 [ext_resource type="Resource" uid="uid://bm16imlh26q7j" path="res://moves/water moves/hydro_pump_move.tres" id="13_48fsl"]
 [ext_resource type="Resource" uid="uid://7ef2g1fnlbog" path="res://moves/fairy moves/misty_terrain_move.tres" id="14_n540o"]
 [ext_resource type="Resource" uid="uid://dawfc7y4lvljg" path="res://moves/normal moves/pound_move.tres" id="15_joqe5"]
+[ext_resource type="Texture2D" uid="uid://bumn3itmidv8o" path="res://pokemon/popplio/popplio_back.png" id="17_js18o"]
+[ext_resource type="Texture2D" uid="uid://s6ddk25esdn7" path="res://pokemon/popplio/popplio_back_shiny.png" id="18_wdsgw"]
+[ext_resource type="Texture2D" uid="uid://bmn7cr1kadygj" path="res://pokemon/popplio/popplio_front.png" id="19_s8r1p"]
+[ext_resource type="Texture2D" uid="uid://bd2qmflfxmiav" path="res://pokemon/popplio/popplio_front_shiny.png" id="20_cn0rv"]
+[ext_resource type="Texture2D" uid="uid://dny468fkoaujo" path="res://pokemon/popplio/popplio_icon.png" id="21_61656"]
 
 [resource]
 script = ExtResource("1_t6bxb")
@@ -53,3 +59,9 @@ lvl_learnset = {
 46: ExtResource("14_n540o")
 }
 tm_learnset = []
+sprite_front = ExtResource("19_s8r1p")
+sprite_back = ExtResource("17_js18o")
+sprite_front_shiny = ExtResource("20_cn0rv")
+sprite_back_shiny = ExtResource("18_wdsgw")
+sprite_icons = ExtResource("21_61656")
+cry = ExtResource("1_tmo3k")
